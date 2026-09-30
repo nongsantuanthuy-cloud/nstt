@@ -10,3 +10,5 @@
 - [ ] B5 `dung_video_v3.py`
 - [ ] Chủ kênh DUYỆT video
 - [ ] B7 đăng
+
+**30/09:** chủ kênh chọn làm video này ĐẦU TIÊN. Đang chờ clip thử S01 (cần tạo ảnh tham chiếu `Ut Nho` trước).
