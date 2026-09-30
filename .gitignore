@@ -1,0 +1,6 @@
+phan_tich/
+*.mp4
+*.wav
+__pycache__/
+bi_mat/
+*.env

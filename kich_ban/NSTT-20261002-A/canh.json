@@ -1,0 +1,222 @@
+{
+  "ma_video": "NSTT-20261002-A",
+  "chu_de": "Giá lên, có người trả cao hơn — Cô Hai giữ chữ tín hay bẻ kèo",
+  "tieu_de_tam": "Có người trả thêm 20 nghìn một ký — Cô Hai giữ kèo hay bẻ kèo?",
+  "ghi_chu": "Phe gặp khó: nhà vườn bị cám dỗ, thương lái có nguy cơ mất hàng. Kết: giữ chữ tín, người mua tự chia bớt phần giá lên. Không nói xấu Thắng Lanh — chỉ là người mua cạnh tranh.",
+  "bang_tinh": {
+    "keo_em_tuan": "5.000 kg x 80.000 = 400.000.000 đ",
+    "coc": "30.000.000 đ",
+    "gia_thang_lanh": "5.000 x 100.000 = 500.000.000 đ",
+    "phat_coc_gap_doi": "30.000.000 x 2 = 60.000.000 đ",
+    "be_keo_con_lai": "500 - 60 = 440.000.000 đ",
+    "chenh_be_keo": "440 - 400 = 40.000.000 đ",
+    "em_tuan_them": "5.000 x 85.000 = 425.000.000 đ"
+  },
+  "canh": [
+    {
+      "so": "S01",
+      "phan": "HOOK",
+      "boi_canh": "vuon",
+      "nhan_vat": [
+        "Thang Lanh",
+        "Co Hai"
+      ],
+      "loi": "Cầm cọc người ta ba chục triệu, giờ có người trả thêm hai mươi nghìn một ký. Cô Hai giữ kèo, hay bẻ kèo?",
+      "chu_man_hinh": "+20.000Đ/KÝ — GIỮ HAY BẺ?",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: under durian trees heavy with ripe fruit, afternoon light. Thang Lanh, a man around 35, slicked hair, thin mustache, tight black T-shirt, gold chain and gold watch, fans out a thick stack of cash in front of Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, with a persuasive grin; she stares at the money, hesitates, and slowly pulls her hand back. Mouths closed. Sound: paper money flicking, cicadas. No dialogue, no music, no on-screen text."
+    },
+    {
+      "so": "S02",
+      "phan": "CAU_MO",
+      "boi_canh": "vuon",
+      "nhan_vat": [
+        "Nguoi Ke"
+      ],
+      "loi": "Chào bà con. Chuyện nghề sầu riêng hôm nay, Tuấn Thủy kể bà con nghe.",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a durian orchard path in the morning, durian trees with hanging fruit on both sides, dappled sunlight. Nguoi Ke, the young woman in the reference: white collared shirt, beige wide-leg trousers, black belt, hair in a low bun, walks slowly toward the camera, smiles warmly and gives a small friendly nod, mouth closed. Sound: footsteps on dry leaves, birdsong. No dialogue, no music, no on-screen text."
+    },
+    {
+      "so": "S03",
+      "phan": "BOI_CANH",
+      "boi_canh": "vuon",
+      "nhan_vat": [
+        "Em Tuan",
+        "Co Hai"
+      ],
+      "loi": "Đầu mùa, Em Tuấn xuống vườn Cô Hai, chốt năm tấn, tám mươi nghìn một ký, cọc ba chục triệu.",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a durian orchard in the morning, young fruit on the branches. Em Tuan, the young man in the reference: short spiky black hair, black polo shirt, dark cargo pants, walks with Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, between the trees, taps a durian, then hands her an envelope of cash with both hands; she accepts it with a smile. Mouths closed. Sound: footsteps on leaves, birdsong. No dialogue, no music, no on-screen text."
+    },
+    {
+      "so": "S04",
+      "phan": "BOI_CANH",
+      "boi_canh": "vuon",
+      "nhan_vat": [
+        "Co Hai",
+        "Em Tuan"
+      ],
+      "loi": "Giá đó lúc ấy là giá tốt. Cô Hai mừng, còn pha ấm trà mời Em Tuấn ngồi chơi.",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: the porch of a wooden farmhouse beside a durian orchard, a small tea table and low red plastic stools. Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, pours tea for Em Tuan, the young man in the reference: short spiky black hair, black polo shirt, dark cargo pants, who sits on a low red plastic stool; both smile and chat silently. Mouths closed. Sound: tea pouring, chickens in the distance. No dialogue, no music, no on-screen text."
+    },
+    {
+      "so": "S05",
+      "phan": "VONG_LAP",
+      "boi_canh": "vuon",
+      "nhan_vat": [
+        "Co Hai"
+      ],
+      "loi": "Nhưng một tháng sau, hàng hiếm, giá sầu vọt lên một trăm nghìn. Và điện thoại Cô Hai bắt đầu reo.",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a durian orchard, big ripe durians hanging. Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, is sweeping leaves under a tree when her phone starts ringing in her shirt pocket; she stops, takes it out and looks at it, surprised. Phone screen not visible. Sound: phone ringing, broom on leaves, birds. No dialogue, no music, no on-screen text."
+    },
+    {
+      "so": "S06",
+      "phan": "LEO_THANG",
+      "boi_canh": "vuon",
+      "nhan_vat": [
+        "Thang Lanh",
+        "Co Hai"
+      ],
+      "loi": "Thắng Lanh tới tận vườn, trả một trăm nghìn, nói cứ trả cọc cho người ta, chuyện nhỏ.",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: the dirt entrance of a durian orchard, late afternoon golden light. Thang Lanh, a man around 35, slicked hair, thin mustache, tight black T-shirt, gold chain and gold watch, rides a motorbike up to the orchard, gets off and walks straight to Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back,, gesturing broadly and waving his hand dismissively as if saying it is easy. Mouths closed. Sound: motorbike engine stopping, gravel crunching, cicadas. No dialogue, no music, no on-screen text."
+    },
+    {
+      "so": "S07",
+      "phan": "LEO_THANG",
+      "boi_canh": "vuon",
+      "nhan_vat": [
+        "Co Hai"
+      ],
+      "loi": "Năm tấn nhân một trăm nghìn là năm trăm triệu. Hơn kèo cũ tới cả trăm triệu. Cô Hai mất ngủ mấy đêm.",
+      "chu_man_hinh": "500TR vs 400TR",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: the porch of a wooden farmhouse at night, a single warm light bulb, the dark orchard beyond. Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, sits alone on a low red plastic stool under the bulb, hands clasped, staring into the night, sighing and unable to sleep. Sound: night crickets, a gecko call, soft sigh. No dialogue, no music, no on-screen text."
+    },
+    {
+      "so": "S08",
+      "phan": "DINH_DIEM",
+      "boi_canh": "vuon",
+      "nhan_vat": [
+        "Co Hai"
+      ],
+      "loi": "Nhưng bẻ kèo thì phải trả cọc gấp đôi, sáu chục triệu. Năm trăm trừ sáu chục, còn bốn trăm bốn chục.",
+      "chu_man_hinh": "500TR − 60TR PHẠT CỌC = 440TR",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: the porch of a wooden farmhouse at night, a single warm light bulb. Close-up of Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back's hands counting on her fingers slowly, then resting on her knees. Sound: night crickets. No dialogue, no music, no on-screen text."
+    },
+    {
+      "so": "S09",
+      "phan": "DINH_DIEM",
+      "boi_canh": "vuon",
+      "nhan_vat": [
+        "Co Hai"
+      ],
+      "loi": "Giữ kèo thì được bốn trăm triệu. Chênh bốn chục triệu, mà mất cái tiếng làm ăn với người ta.",
+      "chu_man_hinh": "GIỮ KÈO 400TR — CHÊNH 40TR",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a durian orchard at dawn, mist between the trees. Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, walks slowly between the durian trees at dawn, touching a hanging fruit, deep in thought. Sound: dawn birds, dew dripping from leaves. No dialogue, no music, no on-screen text."
+    },
+    {
+      "so": "S10",
+      "phan": "LEO_THANG",
+      "boi_canh": "vuon",
+      "nhan_vat": [
+        "Co Hai",
+        "Em Tuan"
+      ],
+      "loi": "Cô Hai nghĩ tới hồi mất mùa năm ngoái, Em Tuấn vẫn xuống mua, không ép giá một đồng.",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a durian orchard in a dry season, sparse fruit on the trees, dusty light. Em Tuan, the young man in the reference: short spiky black hair, black polo shirt, dark cargo pants, helps Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, lift a half-empty basket of small durians onto a scale, both smiling gently, a warm memory feeling. Mouths closed. Scale display not readable. Sound: basket on scale, dry leaves, soft wind. No dialogue, no music, no on-screen text."
+    },
+    {
+      "so": "S11",
+      "phan": "HOA_GIAI",
+      "boi_canh": "vuon",
+      "nhan_vat": [
+        "Co Hai",
+        "Thang Lanh"
+      ],
+      "loi": "Chị cảm ơn Thắng Lanh, từ chối nhẹ nhàng. Rồi chị gọi Em Tuấn, hẹn ngày cắt như đã chốt.",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: the dirt entrance of a durian orchard, morning. Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, smiles politely and pushes back the cash offered by Thang Lanh, a man around 35, slicked hair, thin mustache, tight black T-shirt, gold chain and gold watch, with both hands; he shrugs good-naturedly and rides off on his motorbike. Then she lifts her phone to her ear. Phone screen not visible. Mouths closed. Sound: motorbike leaving, birds. No dialogue, no music, no on-screen text."
+    },
+    {
+      "so": "S12",
+      "phan": "HOA_GIAI",
+      "boi_canh": "vuon",
+      "nhan_vat": [
+        "Em Tuan",
+        "Co Hai"
+      ],
+      "loi": "Ngày cắt, Em Tuấn tự nói: giá lên rồi, em gửi thêm cô năm nghìn một ký, cho cô vui.",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a durian orchard on harvest day, workers cutting durians and filling baskets in the background. Em Tuan, the young man in the reference: short spiky black hair, black polo shirt, dark cargo pants, walks up to Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back,, smiles and hands her an extra envelope of cash with both hands; she is surprised, then laughs happily. Mouths closed. Sound: workers cutting stems, baskets, cicadas. No dialogue, no music, no on-screen text."
+    },
+    {
+      "so": "S13",
+      "phan": "HOA_GIAI",
+      "boi_canh": "vuon",
+      "nhan_vat": [
+        "Co Hai",
+        "Em Tuan"
+      ],
+      "loi": "Năm tấn, tám mươi lăm nghìn, là bốn trăm hai mươi lăm triệu. Không ai ép ai, hai bên cùng vui.",
+      "chu_man_hinh": "5 TẤN × 85.000Đ = 425TR",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a durian orchard on harvest day, many baskets of freshly cut durians. Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, and Em Tuan, the young man in the reference: short spiky black hair, black polo shirt, dark cargo pants, shake hands warmly beside rows of full baskets, both smiling broadly. Close shot on the handshake. Mouths closed. Sound: cicadas, baskets being stacked. No dialogue, no music, no on-screen text."
+    },
+    {
+      "so": "S14",
+      "phan": "GOC_NHIN",
+      "boi_canh": "vuon",
+      "nhan_vat": [
+        "Nguoi Ke"
+      ],
+      "loi": "Tuấn Thủy thấy, giá lên xuống theo mùa, còn chữ tín thì theo mình cả đời làm nghề.",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a durian orchard, soft afternoon light filtering through leaves. Nguoi Ke, the young woman in the reference: white collared shirt, beige wide-leg trousers, black belt, hair in a low bun, stands beside a durian tree, looks thoughtfully at a hanging fruit, then turns calmly toward the camera, mouth closed. Sound: leaves rustling, birdsong. No dialogue, no music, no on-screen text."
+    },
+    {
+      "so": "S15",
+      "phan": "MEO",
+      "boi_canh": "vuon",
+      "nhan_vat": [
+        "Nguoi Ke"
+      ],
+      "loi": "Mẹo nhỏ: trước khi bẻ kèo, cứ lấy giá mới trừ tiền phạt cọc, rồi hãy so. Nhiều khi chẳng hơn bao nhiêu.",
+      "chu_man_hinh": "GIÁ MỚI − PHẠT CỌC rồi hãy so",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a durian orchard, a low red plastic stool under a tree. Nguoi Ke, the young woman in the reference: white collared shirt, beige wide-leg trousers, black belt, hair in a low bun, sits on the low red plastic stool, taps numbers on a phone calculator with focus, then nods to herself. Phone screen not visible. Sound: soft phone tapping, birds, leaves. No dialogue, no music, no on-screen text."
+    },
+    {
+      "so": "S16",
+      "phan": "MEO",
+      "boi_canh": "vuon",
+      "nhan_vat": [
+        "Em Tuan"
+      ],
+      "loi": "Còn bên mua, khi giá lên mạnh, chia bớt cho nhà vườn một ít. Mùa sau người ta nhớ mình.",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a durian orchard, ripe durians hanging on branches. Em Tuan, the young man in the reference: short spiky black hair, black polo shirt, dark cargo pants, crouches beside a freshly cut durian on the ground, turns it carefully to inspect the spikes and stem, then looks up at the camera and smiles, mouth closed. Sound: soft knocking on the husk, leaves rustling. No dialogue, no music, no on-screen text."
+    },
+    {
+      "so": "S17",
+      "phan": "CAU_HOI_2_PHE",
+      "boi_canh": "vuon",
+      "nhan_vat": [
+        "Co Hai"
+      ],
+      "loi": "Theo bà con, nếu là Cô Hai, bà con giữ kèo bốn trăm triệu, hay bẻ kèo lấy bốn trăm bốn chục?",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a durian orchard at dusk, warm low sunlight. Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, stands among the trees with hands on hips, looking out over the orchard with a thoughtful expression. Sound: evening crickets, gentle breeze. No dialogue, no music, no on-screen text."
+    },
+    {
+      "so": "S18",
+      "phan": "KET_1",
+      "boi_canh": "vuon",
+      "nhan_vat": [
+        "Nguoi Ke",
+        "Em Tuan"
+      ],
+      "loi": "Có hàng cần bán, bà con cứ gọi Tuấn Thủy. Mình cùng trao đổi rõ ràng, thuận mua vừa bán, ai cũng vui.",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a durian orchard, baskets of freshly harvested durians on the ground. Nguoi Ke, the young woman in the reference: white collared shirt, beige wide-leg trousers, black belt, hair in a low bun, and Em Tuan, the young man in the reference: short spiky black hair, black polo shirt, dark cargo pants, stand beside the baskets; Em Tuan lifts a durian into a basket while Nguoi Ke smiles at the camera. Mouths closed. Sound: durian placed into basket, birds, leaves. No dialogue, no music, no on-screen text."
+    },
+    {
+      "so": "S19",
+      "phan": "KET_2",
+      "boi_canh": "vuon",
+      "nhan_vat": [
+        "Nguoi Ke"
+      ],
+      "loi": "Cảm ơn bà con đã tin tưởng và hẹn gặp lại trong những vườn sầu riêng.",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a durian orchard path at golden hour, long rows of durian trees. Nguoi Ke, the young woman in the reference: white collared shirt, beige wide-leg trousers, black belt, hair in a low bun, gives a gentle nod and smile, then turns and walks slowly away down the orchard path, mouth closed. Sound: footsteps on dry leaves, birdsong fading. No dialogue, no music, no on-screen text."
+    }
+  ]
+}
