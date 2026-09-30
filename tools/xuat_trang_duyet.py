@@ -42,7 +42,7 @@ nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--
 nav a{font-family:var(--f-display);font-size:1.05rem;text-decoration:none;color:var(--brand);
   border:1.5px solid var(--brand);border-radius:999px;padding:2px 12px}
 .howto{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:16px 0}
-.howto code{background:var(--chip);padding:1px 6px;border-radius:4px;font-size:.92em}
+.howto ol{margin:.4rem 0 .2rem;padding-left:1.2rem;display:grid;gap:4px}.cat code,.howto code{background:var(--chip);padding:1px 6px;border-radius:4px;font-size:.92em}
 section.video{margin-top:34px;scroll-margin-top:70px}
 .ma{font-family:var(--f-display);letter-spacing:.08em;color:var(--muted);font-size:.95rem}
 h2{font-size:1.9rem;margin:.2rem 0 .4rem}
@@ -111,7 +111,9 @@ def video_html(data):
             loi = f'<p class="line">{e(c["loi"])}</p>'
         cls = ' class="hoi"' if c["phan"] == "CAU_HOI_2_PHE" else ""
         chu = f'<div class="chu">{e(c["chu_man_hinh"])}</div>' if c.get("chu_man_hinh") else ""
-        cat = f'<div class="cat">Góc máy: {" → ".join(GOC.get(x, x) for x in c.get("cat", []))}</div>' if c.get("cat") else ""
+        flow = ", ".join(c["nhan_vat"]) or "không chọn nhân vật"
+        cat = f'<div class="cat">Nhân vật Flow: <code>{e(flow)}</code></div>'
+        cat += f'<div class="cat">Góc máy: {" → ".join(GOC.get(x, x) for x in c.get("cat", []))}</div>' if c.get("cat") else ""
         out.append(
             f'<li><div class="t">{e(c["so"])}<small>{mmss(t)}–{mmss(t + g)}</small></div>'
             f'<div class="body"><span class="tag">{e(PHAN.get(c["phan"], c["phan"]))}</span>'
@@ -139,6 +141,15 @@ def main():
 <h1>Nông Sản Tuấn Thủy</h1>
 <p class="sub">Kịch bản chờ duyệt lời. Mỗi cảnh là một clip Veo khoảng 8 giây; thời gian ghi bên trái là ước tính.</p>
 <nav>{nav}</nav>
+<div class="howto" id="flow"><b>Tạo clip trên Google Flow</b> (chủ kênh hoặc Claude in Chrome làm):
+<ol>
+<li>Mở dự án Flow mẫu. Mục <b>Nhân vật</b> của Flow phải có đủ: <code>Nguoi Ke</code> (Tuấn Thủy), <code>Em Tuan</code>, <code>Chu Nam</code>, <code>Ut Nho</code>, <code>Thang Lanh</code>, <code>Bay Loi</code>, <code>Chu Tu</code>, <code>Sau Tai</code>, <code>Ba Tam</code>. Thiếu ai thì tạo từ ảnh chủ kênh rồi mới làm cảnh có người đó.</li>
+<li>Cài đặt: <b>Video</b> · khung <b>16:9</b> · <b>8 giây</b> · <b>x1</b> · model <b>Veo 3.1 Lite (Lower Priority)</b> · tắt chế độ Tác nhân.</li>
+<li>Mỗi cảnh: nhấn Escape, chọn đúng các <b>Nhân vật Flow</b> ghi dưới cảnh, bấm <b>Prompt Flow → Chép prompt</b>, dán vào ô tạo, bấm →. Mỗi lần chỉ làm 1 cảnh.</li>
+<li>Xem clip: sai mặt/áo, có chữ hoặc logo lạ, nói tiếng nước ngoài, khẩu hình lệch → tạo lại cảnh đó.</li>
+<li>Tải xuống 720p, đặt tên đúng số cảnh <code>S01.mp4</code>, <code>S02.mp4</code>… rồi gửi cho Claude để dựng video.</li>
+</ol>
+Làm <b>S01 trước</b> để thử giọng Việt; ổn mới làm tiếp các cảnh sau.</div>
 <div class="howto">Duyệt: nhắn <code>DUYỆT LỜI NSTT-20261001-A</code>. Muốn sửa: nhắn <code>SỬA NSTT-20261001-A S05: …</code> (ghi số cảnh và lời mới).</div>
 {"".join(video_html(d) for d in ds)}
 </div>

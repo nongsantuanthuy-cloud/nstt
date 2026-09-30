@@ -14,6 +14,8 @@ Repo này là **nguồn kiến thức DUY NHẤT** của dự án (chủ kênh c
 - Repo GitHub là nguồn kiến thức chung duy nhất — docs/09.
 - **Nhân vật tự thoại, bỏ người kể UV07** (Tuấn Thủy nói thẳng vào máy ở đầu/cuối); cắt + phóng to trong clip;
   phụ đề karaoke — docs/03 mục 6, docs/08.
+- **Tạo clip: Google Flow** (Claude in Chrome / điều khiển máy trên máy chủ kênh), **Nhân vật của Flow** để đồng bộ,
+  model **Veo 3.1 Lite (Lower Priority)**. Phiên cloud chỉ chuẩn bị kịch bản + trang lệnh và dựng video khi có clip.
 
 ## Mục tiêu dự án
 Sản xuất tự động video drama ngắn (~2 phút, dọc 9:16) cho Facebook Reels, TikTok, YouTube Shorts

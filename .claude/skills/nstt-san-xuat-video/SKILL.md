@@ -11,7 +11,7 @@ description: Sản xuất video drama sầu riêng ~2 phút cho kênh "Nông S�
 3. Viết `kich_ban/<ma>/canh.json` kiểu `"thoai"` (mã `NSTT-YYYYMMDD-A|B`) → `python3 tools/kiem_tra_kich_ban.py <canh.json> --md` phải `OK`.
    Tiền phải cộng trừ đúng (ghi `bang_tinh`). Mỗi clip ≤ 26 âm tiết, tốt nhất 1 người nói.
 4. `seo.md`, `trang_thai.md` = "CHỜ DUYỆT LỜI". Gửi chủ kênh tóm tắt tiếng Việt.
-5. Sau "DUYỆT LỜI" (máy chủ kênh): Flow (thử S01 trước) → `tools/moc_tu_whisper.py` → tạo lại cảnh lỗi →
+5. Sau "DUYỆT LỜI" (máy chủ kênh, Claude in Chrome): Google Flow, Nhân vật Flow, model Veo 3.1 Lite (Lower Priority), 16:9 (thử S01 trước) → `tools/moc_tu_whisper.py` → tạo lại cảnh lỗi →
    `tools/dung_video_v3.py --logo ...` → gửi video.
 6. Chờ "DUYỆT". **Không bao giờ tự đăng khi chưa duyệt; không in/gửi token.**
 7. Cuối phiên: nhật ký + cập nhật docs + commit + push.
