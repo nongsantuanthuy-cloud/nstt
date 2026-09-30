@@ -1,4 +1,7 @@
-# 10 — Đề xuất đổi tên / thêm nhân vật (CHỜ CHỦ KÊNH CHỌN — chưa áp dụng)
+# 10 — Đề xuất đổi tên / thêm nhân vật
+
+**Quyết định 30/09/2026:** tên kênh = **Nông Sản Tuấn Thủy**; ĐỒNG Ý thêm 4 nhân vật mới (đã đưa vào docs/01).
+Tên series: chưa quyết.
 
 ## 1. Tên kênh: "Tuấn Thủy" hay "Tuấn Thúy"?
 Trên Drive có file ghi "Nông Sản Tuấn **Thúy**" (bảng thu mua, gói cấu hình) còn tài liệu kênh ghi "Tuấn **Thủy**".

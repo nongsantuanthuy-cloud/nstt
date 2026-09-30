@@ -1,6 +1,6 @@
 # Trạng thái — NSTT-20261002-A
 
-**KỊCH BẢN — CHỜ CHỦ KÊNH DUYỆT LỜI** (30/09/2026)
+**KỊCH BẢN v2 — CHỜ CHỦ KÊNH DUYỆT LỜI** (30/09/2026, v2 thêm nhân vật mới)
 
 - [x] B1 canh.json + kich_ban.md (kiểm tra `tools/kiem_tra_kich_ban.py`: OK)
 - [x] B6a seo.md (nháp)

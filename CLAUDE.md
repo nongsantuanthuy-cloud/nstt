@@ -1,11 +1,17 @@
 # CLAUDE.md — Kênh NÔNG SẢN TUẤN THỦY (NSTT)
 
-Repo này là **bộ nhớ dài hạn** của dự án. Mọi phiên Claude mới PHẢI đọc theo thứ tự:
+Repo này là **nguồn kiến thức DUY NHẤT** của dự án (chủ kênh chốt 30/09/2026 — xem `docs/09`).
+Đầu phiên `git pull`, cuối phiên `git push`. Mọi phiên Claude mới PHẢI đọc theo thứ tự:
 
 1. File này.
 2. File mới nhất trong `nhat_ky/` (nhật ký phiên trước: làm gì, dở gì, việc tiếp theo).
 3. `CAU_HOI_CHO_CHU_KENH.md` — câu hỏi còn treo. Chưa có trả lời thì KHÔNG tự đoán.
 4. `docs/` — kiến thức gốc (luôn đúng hơn trí nhớ của model).
+
+## Quyết định đã chốt
+- Tên kênh: **Nông Sản Tuấn Thủy** (không viết "Tuấn Thúy").
+- Dàn nhân vật 9 người (5 cũ + Chú Tư, Út Nhỏ, Anh Sáu Tài, Bà Năm Cân) — docs/01.
+- Repo GitHub là nguồn kiến thức chung duy nhất — docs/09.
 
 ## Mục tiêu dự án
 Sản xuất tự động video drama ngắn (~2 phút, dọc 9:16) cho Facebook Reels, TikTok, YouTube Shorts
@@ -31,6 +37,9 @@ hotline/Zalo **0392.547.547**.
 | `docs/05_KHO_CHU_DE.md` | Kho chủ đề + trạng thái đã/chưa làm |
 | `docs/06_TU_DIEN_NGANH.md` | Từ ngữ ngành sầu riêng dùng trong lời |
 | `docs/08_QUY_TRINH_SAN_XUAT.md` | Quy trình Flow → giọng → hậu kỳ → duyệt |
+| `docs/09_NGUON_KIEN_THUC_CHUNG.md` | Repo = nguồn duy nhất; cách gộp thư mục máy chủ kênh |
+| `thuong_hieu/nhan_vat_moi.md` | Prompt tạo ảnh tham chiếu Flow cho 4 nhân vật mới |
+| `.claude/skills/nstt-san-xuat-video/` | Skill dự án (tự nạp) |
 | `docs/10_DE_XUAT_NHAN_VAT_THUONG_HIEU.md` | Đề xuất đổi tên / nhân vật mới (chờ chủ kênh chọn) |
 | `kich_ban/<ma_video>/` | `canh.json`, `kich_ban.md`, `seo.md`, `trang_thai.md` |
 | `tools/kiem_tra_kich_ban.py` | Kiểm tra `canh.json`: độ dài ước tính, số viết bằng chữ, tên nhân vật, cấu trúc |

@@ -2,7 +2,8 @@
   "ma_video": "NSTT-20261001-A",
   "chu_de": "Cái bao phân biết nói — cân bàn lệch năm phần trăm, ba tấn hụt một trăm năm mươi ký",
   "tieu_de_tam": "Cân 3 tấn sầu riêng hụt 150 ký — cái bao phân nói thật",
-  "ghi_chu": "Chủ đề gốc cảm hứng từ video mẫu 'cái cân biết nói' nhưng cốt truyện, nhân vật, cách lật tẩy (bao phân 50 ký) và kết có hậu là của NSTT. Không kết tội ai cố ý: cân mượn, có thể lệch do máy hoặc do người. Bối cảnh bai_can = sân vườn có xe tải + cân bàn (map sang vuon nếu hậu kỳ chưa hỗ trợ).",
+  "phien_ban": 2,
+  "ghi_chu": "v2 30/09: thêm Bà Năm Cân ở trạm cân (S11). Chủ đề gốc cảm hứng từ video mẫu 'cái cân biết nói' nhưng cốt truyện, nhân vật, cách lật tẩy (bao phân 50 ký) và kết có hậu là của NSTT. Không kết tội ai cố ý: cân mượn, có thể lệch do máy hoặc do người. Bối cảnh bai_can = sân vườn có xe tải + cân bàn (map sang vuon nếu hậu kỳ chưa hỗ trợ).",
   "bang_tinh": {
     "gia_chot": "90.000 đ/kg",
     "thuc_te": "3.000 kg (cân trạm)",
@@ -122,10 +123,12 @@
       "so": "S11",
       "phan": "DINH_DIEM",
       "boi_canh": "bai_can",
-      "nhan_vat": [],
-      "loi": "Cân lại ở trạm, ba tấn tròn. Cân bàn khi nãy chỉ ghi hai nghìn tám trăm năm mươi ký.",
+      "nhan_vat": [
+        "Ba Nam"
+      ],
+      "loi": "Ở trạm cân đầu xã, Bà Năm cân lại, ba tấn tròn. Cân bàn khi nãy chỉ ghi hai nghìn tám trăm năm mươi ký.",
       "chu_man_hinh": "3.000 KÝ  vs  2.850 KÝ",
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a roadside truck weighbridge station in the Vietnamese countryside, a small booth, dusty road. A small truck loaded with green durians drives slowly onto the large metal weighbridge platform and stops; a worker waves it forward. Display not readable. Sound: truck engine rumbling, metal platform clunking, road ambience. No dialogue, no music, no on-screen text."
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a roadside truck weighbridge station in the Vietnamese countryside, a small booth with an open window, dusty road. A small truck loaded with green durians drives slowly onto the large metal weighbridge platform and stops. Ba Nam, a woman around 65, grey hair in a bun, light blue blouse, reading glasses hanging on a cord, leans out of the booth window, waves the truck to stop, then writes carefully in a ledger. Display and ledger text not readable. Mouth closed. Sound: truck engine rumbling, metal platform clunking, road ambience. No dialogue, no music, no on-screen text."
     },
     {
       "so": "S12",

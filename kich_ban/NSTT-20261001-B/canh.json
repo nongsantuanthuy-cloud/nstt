@@ -2,7 +2,8 @@
   "ma_video": "NSTT-20261001-B",
   "chu_de": "Giá sập, cò định bỏ cọc — Cô Hai gỡ kèo, hai bên cùng giữ chữ tín",
   "tieu_de_tam": "Giá sập 25 nghìn, cò định bỏ cọc — cách Cô Hai gỡ kèo 380 triệu",
-  "ghi_chu": "Phe gặp khó: cả hai. Thắng Lanh không phải kẻ xấu — giá sập toàn vùng. Hóa giải: giữ kèo ở giá 75k, cọc trừ vào tiền hàng; Thắng Lanh lỗ bằng tiền cọc nhưng giữ uy tín, Cô Hai hơn 20 triệu so với bán lẻ.",
+  "phien_ban": 2,
+  "ghi_chu": "v2 30/09: thay người mua lẻ vô danh bằng Út Nhỏ (S08, S09). Phe gặp khó: cả hai. Thắng Lanh không phải kẻ xấu — giá sập toàn vùng. Hóa giải: giữ kèo ở giá 75k, cọc trừ vào tiền hàng; Thắng Lanh lỗ bằng tiền cọc nhưng giữ uy tín, Cô Hai hơn 20 triệu so với bán lẻ.",
   "bang_tinh": {
     "keo_cu": "4.000 kg x 95.000 = 380.000.000 đ",
     "coc": "20.000.000 đ",
@@ -97,18 +98,19 @@
         "Co Hai"
       ],
       "loi": "Còn Cô Hai, bốn tấn trái đã tới độ. Để thêm vài bữa là rụng, là nứt, không chờ được.",
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a durian orchard, very large ripe durians hanging low, one already fallen on the red soil. A ripe durian drops from a branch and thuds onto the ground next to Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, who kneels down, picks it up with both hands and looks up at the heavy branches anxiously. Sound: heavy thud of a falling durian, leaves rustling. No dialogue, no music, no on-screen text."
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a durian orchard, very large ripe durians hanging low, one already fallen on the red soil. A ripe durian drops from a branch and thuds onto the ground next to Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, who kneels down, picks it up with both hands and looks up at the heavy branches anxiously, while Ut Nho, a young woman around 22, simple pastel T-shirt, jeans, hair in a ponytail, holding a smartphone, stands beside her looking worried. Mouths closed. Sound: heavy thud of a falling durian, leaves rustling. No dialogue, no music, no on-screen text."
     },
     {
       "so": "S09",
       "phan": "DINH_DIEM",
       "boi_canh": "vuon",
       "nhan_vat": [
+        "Ut Nho",
         "Co Hai"
       ],
-      "loi": "Bán lẻ quanh đây, người ta chỉ trả sáu mươi lăm nghìn. Bốn tấn được hai trăm sáu chục triệu.",
+      "loi": "Út Nhỏ, con gái chị, đăng bán lên mạng, ai cũng chỉ trả sáu mươi lăm nghìn. Bốn tấn được hai trăm sáu chục triệu.",
       "chu_man_hinh": "4 TẤN × 65.000Đ = 260TR",
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a durian orchard gate by a dirt road. Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, stands at the orchard gate listening to a local buyer in a plain grey shirt who shakes his head and holds up a hand, she lowers her eyes in disappointment. Mouths closed. Sound: road ambience, cicadas. No dialogue, no music, no on-screen text."
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: the porch of a wooden farmhouse beside a durian orchard, a low red plastic stool. Ut Nho, a young woman around 22, simple pastel T-shirt, jeans, hair in a ponytail, holding a smartphone, sits on the low red plastic stool scrolling and typing quickly on her phone, then looks up and shakes her head sadly at Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, who stands beside her and lowers her eyes. Phone screen not visible. Mouths closed. Sound: phone tapping, message notification sounds, cicadas. No dialogue, no music, no on-screen text."
     },
     {
       "so": "S10",

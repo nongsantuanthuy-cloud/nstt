@@ -2,7 +2,7 @@
 
 **Chủ đề:** Giá lên, có người trả cao hơn — Cô Hai giữ chữ tín hay bẻ kèo
 
-**Ghi chú:** Phe gặp khó: nhà vườn bị cám dỗ, thương lái có nguy cơ mất hàng. Kết: giữ chữ tín, người mua tự chia bớt phần giá lên. Không nói xấu Thắng Lanh — chỉ là người mua cạnh tranh.
+**Ghi chú:** v2 30/09: thêm Chú Tư (S09). Phe gặp khó: nhà vườn bị cám dỗ, thương lái có nguy cơ mất hàng. Kết: giữ chữ tín, người mua tự chia bớt phần giá lên. Không nói xấu Thắng Lanh — chỉ là người mua cạnh tranh.
 
 ## Bảng tính
 
@@ -26,19 +26,19 @@
 | S06 | 0:29–0:34 | LEO_THANG | vuon | Thang Lanh, Co Hai | Thắng Lanh tới tận vườn, trả một trăm nghìn, nói cứ trả cọc cho người ta, chuyện nhỏ. |  |
 | S07 | 0:34–0:41 | LEO_THANG | vuon | Co Hai | Năm tấn nhân một trăm nghìn là năm trăm triệu. Hơn kèo cũ tới cả trăm triệu. Cô Hai mất ngủ mấy đêm. | 500TR vs 400TR |
 | S08 | 0:41–0:47 | DINH_DIEM | vuon | Co Hai | Nhưng bẻ kèo thì phải trả cọc gấp đôi, sáu chục triệu. Năm trăm trừ sáu chục, còn bốn trăm bốn chục. | 500TR − 60TR PHẠT CỌC = 440TR |
-| S09 | 0:47–0:53 | DINH_DIEM | vuon | Co Hai | Giữ kèo thì được bốn trăm triệu. Chênh bốn chục triệu, mà mất cái tiếng làm ăn với người ta. | GIỮ KÈO 400TR — CHÊNH 40TR |
-| S10 | 0:53–0:58 | LEO_THANG | vuon | Co Hai, Em Tuan | Cô Hai nghĩ tới hồi mất mùa năm ngoái, Em Tuấn vẫn xuống mua, không ép giá một đồng. |  |
-| S11 | 0:58–1:04 | HOA_GIAI | vuon | Co Hai, Thang Lanh | Chị cảm ơn Thắng Lanh, từ chối nhẹ nhàng. Rồi chị gọi Em Tuấn, hẹn ngày cắt như đã chốt. |  |
-| S12 | 1:04–1:10 | HOA_GIAI | vuon | Em Tuan, Co Hai | Ngày cắt, Em Tuấn tự nói: giá lên rồi, em gửi thêm cô năm nghìn một ký, cho cô vui. |  |
-| S13 | 1:10–1:16 | HOA_GIAI | vuon | Co Hai, Em Tuan | Năm tấn, tám mươi lăm nghìn, là bốn trăm hai mươi lăm triệu. Không ai ép ai, hai bên cùng vui. | 5 TẤN × 85.000Đ = 425TR |
-| S14 | 1:16–1:21 | GOC_NHIN | vuon | Nguoi Ke | Tuấn Thủy thấy, giá lên xuống theo mùa, còn chữ tín thì theo mình cả đời làm nghề. |  |
-| S15 | 1:21–1:28 | MEO | vuon | Nguoi Ke | Mẹo nhỏ: trước khi bẻ kèo, cứ lấy giá mới trừ tiền phạt cọc, rồi hãy so. Nhiều khi chẳng hơn bao nhiêu. | GIÁ MỚI − PHẠT CỌC rồi hãy so |
-| S16 | 1:28–1:34 | MEO | vuon | Em Tuan | Còn bên mua, khi giá lên mạnh, chia bớt cho nhà vườn một ít. Mùa sau người ta nhớ mình. |  |
-| S17 | 1:34–1:40 | CAU_HOI_2_PHE | vuon | Co Hai | Theo bà con, nếu là Cô Hai, bà con giữ kèo bốn trăm triệu, hay bẻ kèo lấy bốn trăm bốn chục? |  |
-| S18 | 1:40–1:46 | KET_1 | vuon | Nguoi Ke, Em Tuan | Có hàng cần bán, bà con cứ gọi Tuấn Thủy. Mình cùng trao đổi rõ ràng, thuận mua vừa bán, ai cũng vui. |  |
-| S19 | 1:46–1:51 | KET_2 | vuon | Nguoi Ke | Cảm ơn bà con đã tin tưởng và hẹn gặp lại trong những vườn sầu riêng. |  |
+| S09 | 0:47–0:54 | DINH_DIEM | vuon | Chu Tu, Co Hai | Chị sang hỏi Chú Tư hàng xóm. Chú tính giùm: giữ kèo được bốn trăm, chênh bốn chục, mà mất cái tiếng làm ăn. | GIỮ KÈO 400TR — CHÊNH 40TR |
+| S10 | 0:54–0:59 | LEO_THANG | vuon | Co Hai, Em Tuan | Cô Hai nghĩ tới hồi mất mùa năm ngoái, Em Tuấn vẫn xuống mua, không ép giá một đồng. |  |
+| S11 | 0:59–1:05 | HOA_GIAI | vuon | Co Hai, Thang Lanh | Chị cảm ơn Thắng Lanh, từ chối nhẹ nhàng. Rồi chị gọi Em Tuấn, hẹn ngày cắt như đã chốt. |  |
+| S12 | 1:05–1:11 | HOA_GIAI | vuon | Em Tuan, Co Hai | Ngày cắt, Em Tuấn tự nói: giá lên rồi, em gửi thêm cô năm nghìn một ký, cho cô vui. |  |
+| S13 | 1:11–1:17 | HOA_GIAI | vuon | Co Hai, Em Tuan | Năm tấn, tám mươi lăm nghìn, là bốn trăm hai mươi lăm triệu. Không ai ép ai, hai bên cùng vui. | 5 TẤN × 85.000Đ = 425TR |
+| S14 | 1:17–1:22 | GOC_NHIN | vuon | Nguoi Ke | Tuấn Thủy thấy, giá lên xuống theo mùa, còn chữ tín thì theo mình cả đời làm nghề. |  |
+| S15 | 1:22–1:29 | MEO | vuon | Nguoi Ke | Mẹo nhỏ: trước khi bẻ kèo, cứ lấy giá mới trừ tiền phạt cọc, rồi hãy so. Nhiều khi chẳng hơn bao nhiêu. | GIÁ MỚI − PHẠT CỌC rồi hãy so |
+| S16 | 1:29–1:35 | MEO | vuon | Em Tuan | Còn bên mua, khi giá lên mạnh, chia bớt cho nhà vườn một ít. Mùa sau người ta nhớ mình. |  |
+| S17 | 1:35–1:41 | CAU_HOI_2_PHE | vuon | Co Hai | Theo bà con, nếu là Cô Hai, bà con giữ kèo bốn trăm triệu, hay bẻ kèo lấy bốn trăm bốn chục? |  |
+| S18 | 1:41–1:47 | KET_1 | vuon | Nguoi Ke, Em Tuan | Có hàng cần bán, bà con cứ gọi Tuấn Thủy. Mình cùng trao đổi rõ ràng, thuận mua vừa bán, ai cũng vui. |  |
+| S19 | 1:47–1:52 | KET_2 | vuon | Nguoi Ke | Cảm ơn bà con đã tin tưởng và hẹn gặp lại trong những vườn sầu riêng. |  |
 
-**Tổng ước tính:** 1:51
+**Tổng ước tính:** 1:52
 
 ## Prompt Google Flow (Veo 3.1 Lite, 16:9, x1)
 
@@ -93,7 +93,7 @@ Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm fil
 ### S09 — DINH_DIEM
 
 ```
-Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a durian orchard at dawn, mist between the trees. Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, walks slowly between the durian trees at dawn, touching a hanging fruit, deep in thought. Sound: dawn birds, dew dripping from leaves. No dialogue, no music, no on-screen text.
+Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: the porch of a neighbor's wooden house at the edge of a durian orchard in the morning, two low red plastic stools and a small tea table. Chu Tu, a man around 60, faded plaid shirt, checkered krama scarf around his neck, soft bucket hat, weathered kind face, sits on a low red plastic stool counting slowly on his fingers, then taps the table gently and gives Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, a calm, knowing look; she listens and nods slowly. Mouths closed. Sound: tea cup on wood, morning birds. No dialogue, no music, no on-screen text.
 ```
 
 ### S10 — LEO_THANG

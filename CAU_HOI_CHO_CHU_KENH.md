@@ -2,14 +2,23 @@
 
 Trả lời trực tiếp trong chat hoặc sửa file này (ghi "TRẢ LỜI: ..." dưới câu hỏi). Phiên sau đọc trước khi làm.
 
-| # | Ngày | Câu hỏi | Vì sao cần | Trạng thái |
-|---|---|---|---|---|
-| 1 | 30/09 | Cho phép Claude xem `video mẫu.mp4`: bật chia sẻ "Bất kỳ ai có đường liên kết" cho file này (hoặc cho Claude tự bật)? | Phân tích chính xác từng khung hình (mốc giây, góc máy, chữ trên màn hình, lời thoại). Hiện chỉ phân tích theo bản mô tả của chủ kênh | CHỜ |
-| 2 | 30/09 | Chốt cách viết tên: **Tuấn Thủy** hay **Tuấn Thúy**? (Drive có cả hai) | Logo, tiêu đề, lời đọc phải thống nhất | CHỜ |
-| 3 | 30/09 | Duyệt lời 3 kịch bản mới: NSTT-20261001-A (bao phân), -B (bỏ cọc), NSTT-20261002-A (giữ kèo)? | Chỉ khi duyệt lời mới tốn credit Flow tạo clip | CHỜ |
-| 4 | 30/09 | Có đồng ý thêm nhân vật mới (Chú Tư, Út Nhỏ, Anh Sáu Tài, Bà Năm Cân) và tên series? Xem `docs/10_...` | Mở rộng chủ đề, tránh nhàm | CHỜ |
-| 5 | 30/09 | Kịch bản NSTT-20260930-A (bản mẫu) đã dựng video chưa? Có muốn Claude viết lại theo cấu trúc mới (thêm hồi HÓA GIẢI) không? | Tài liệu kênh yêu cầu kết có hậu, bản mẫu kết bằng câu hỏi | CHỜ |
-| 6 | 30/09 | Có muốn đẩy các file công cụ trên máy (`tools\hau_ky_nstt.py`, `hau_ky\src\NsttVideo.tsx`, docs 03/05/07/08/09 gốc…) lên repo GitHub này để mọi phiên cùng đọc? | Phiên cloud không thấy ổ D:, nên kiến thức trên máy dễ lệch với repo | CHỜ |
-| 7 | 30/09 | Có muốn thêm chữ lớn trên màn hình (`chu_man_hinh`, ví dụ "150 KÝ × 90.000Đ") vào hậu kỳ Remotion? | Bảng tính dễ hiểu hơn, giữ người xem; cần sửa `NsttVideo.tsx` trên máy | CHỜ |
-| 8 | 30/09 | Nhịp đăng: 2 video/ngày (11:30 và 19:30) hay ít hơn? Mỗi video ~200 credit Flow | Lập lịch sản xuất và ngân sách credit | CHỜ |
-| 9 | 30/09 | Cảnh S09 video NSTT-20261001-B có 1 người mua lẻ phụ (áo xám, không tên). Chấp nhận nhân vật phụ vô danh như vậy không? | Quy tắc cũ bắt lỗi "người lạ" trong clip | CHỜ |
+## Đang chờ
+| # | Ngày | Câu hỏi | Vì sao cần |
+|---|---|---|---|
+| 1b | 30/09 | Video mẫu đã chia sẻ nhưng **mạng của phiên cloud chặn `drive.google.com` và `drive.usercontent.google.com`**. Chủ kênh thêm 2 tên miền này vào *Allowed domains* (menu môi trường ở thanh tiêu đề phiên → Edit → Network access), HOẶC cho máy chủ kênh chạy `tools/trich_khung_hinh.py` rồi push thư mục `phan_tich/` (bỏ khỏi .gitignore) | Phân tích thật từng khung hình |
+| 3b | 30/09 | Chủ kênh trả lời "sửa" nhưng chưa nói sửa gì. Bản v2 đã sửa theo đề xuất (thêm nhân vật mới). Còn muốn sửa gì cụ thể? (lời câu nào, cốt truyện, kết, độ dài, giọng văn…) | Không đoán ý chủ kênh |
+| 6b | 30/09 | Chạy bước gộp thư mục máy chủ kênh vào repo (docs/09) — cần làm trên máy Windows | Để nguồn kiến thức chung có đủ công cụ hậu kỳ |
+| 7 | 30/09 | Thêm chữ lớn trên màn hình (`chu_man_hinh`) vào hậu kỳ Remotion? | Bảng tính dễ hiểu hơn; cần sửa `NsttVideo.tsx` |
+| 8 | 30/09 | Nhịp đăng: 2 video/ngày (11:30, 19:30) hay ít hơn? ~200 credit Flow/video | Lịch + ngân sách |
+| 10 | 30/09 | Tên series ("Sổ Tay Sầu Riêng Tuấn Thủy", đánh số tập) — dùng hay không? | Nhận diện |
+
+## Đã trả lời
+| # | Câu hỏi | Trả lời (30/09/2026) |
+|---|---|---|
+| 1 | Bật chia sẻ video mẫu | Đã bật (nhưng mạng cloud chặn Drive → #1b) |
+| 2 | Tuấn Thủy hay Tuấn Thúy | **Nông Sản Tuấn Thủy** |
+| 3 | Duyệt lời 3 kịch bản | "Sửa" → đã làm v2, chờ chi tiết (#3b) |
+| 4 | Thêm nhân vật mới | **Đồng ý** — Chú Tư, Út Nhỏ, Anh Sáu Tài, Bà Năm Cân |
+| 5 | Kịch bản 30/09-A viết lại? | (chưa trả lời riêng — gộp vào #3b) |
+| 6 | Một nguồn kiến thức | **Dùng chung một nguồn kiến thức mới** → repo GitHub (docs/09) |
+| 9 | Người mua phụ vô danh | Đã thay bằng Út Nhỏ, không còn cần hỏi |

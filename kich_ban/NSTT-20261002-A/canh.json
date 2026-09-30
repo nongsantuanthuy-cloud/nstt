@@ -2,7 +2,8 @@
   "ma_video": "NSTT-20261002-A",
   "chu_de": "Giá lên, có người trả cao hơn — Cô Hai giữ chữ tín hay bẻ kèo",
   "tieu_de_tam": "Có người trả thêm 20 nghìn một ký — Cô Hai giữ kèo hay bẻ kèo?",
-  "ghi_chu": "Phe gặp khó: nhà vườn bị cám dỗ, thương lái có nguy cơ mất hàng. Kết: giữ chữ tín, người mua tự chia bớt phần giá lên. Không nói xấu Thắng Lanh — chỉ là người mua cạnh tranh.",
+  "phien_ban": 2,
+  "ghi_chu": "v2 30/09: thêm Chú Tư (S09). Phe gặp khó: nhà vườn bị cám dỗ, thương lái có nguy cơ mất hàng. Kết: giữ chữ tín, người mua tự chia bớt phần giá lên. Không nói xấu Thắng Lanh — chỉ là người mua cạnh tranh.",
   "bang_tinh": {
     "keo_em_tuan": "5.000 kg x 80.000 = 400.000.000 đ",
     "coc": "30.000.000 đ",
@@ -105,11 +106,12 @@
       "phan": "DINH_DIEM",
       "boi_canh": "vuon",
       "nhan_vat": [
+        "Chu Tu",
         "Co Hai"
       ],
-      "loi": "Giữ kèo thì được bốn trăm triệu. Chênh bốn chục triệu, mà mất cái tiếng làm ăn với người ta.",
+      "loi": "Chị sang hỏi Chú Tư hàng xóm. Chú tính giùm: giữ kèo được bốn trăm, chênh bốn chục, mà mất cái tiếng làm ăn.",
       "chu_man_hinh": "GIỮ KÈO 400TR — CHÊNH 40TR",
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a durian orchard at dawn, mist between the trees. Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, walks slowly between the durian trees at dawn, touching a hanging fruit, deep in thought. Sound: dawn birds, dew dripping from leaves. No dialogue, no music, no on-screen text."
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: the porch of a neighbor's wooden house at the edge of a durian orchard in the morning, two low red plastic stools and a small tea table. Chu Tu, a man around 60, faded plaid shirt, checkered krama scarf around his neck, soft bucket hat, weathered kind face, sits on a low red plastic stool counting slowly on his fingers, then taps the table gently and gives Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, a calm, knowing look; she listens and nods slowly. Mouths closed. Sound: tea cup on wood, morning birds. No dialogue, no music, no on-screen text."
     },
     {
       "so": "S10",

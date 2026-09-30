@@ -2,7 +2,7 @@
 
 **Chủ đề:** Cái bao phân biết nói — cân bàn lệch năm phần trăm, ba tấn hụt một trăm năm mươi ký
 
-**Ghi chú:** Chủ đề gốc cảm hứng từ video mẫu 'cái cân biết nói' nhưng cốt truyện, nhân vật, cách lật tẩy (bao phân 50 ký) và kết có hậu là của NSTT. Không kết tội ai cố ý: cân mượn, có thể lệch do máy hoặc do người. Bối cảnh bai_can = sân vườn có xe tải + cân bàn (map sang vuon nếu hậu kỳ chưa hỗ trợ).
+**Ghi chú:** v2 30/09: thêm Bà Năm Cân ở trạm cân (S11). Chủ đề gốc cảm hứng từ video mẫu 'cái cân biết nói' nhưng cốt truyện, nhân vật, cách lật tẩy (bao phân 50 ký) và kết có hậu là của NSTT. Không kết tội ai cố ý: cân mượn, có thể lệch do máy hoặc do người. Bối cảnh bai_can = sân vườn có xe tải + cân bàn (map sang vuon nếu hậu kỳ chưa hỗ trợ).
 
 ## Bảng tính
 
@@ -29,18 +29,18 @@
 | S08 | 0:39–0:45 | LEO_THANG | bai_can | Co Hai, Thang Lanh | Bao phân lên cân, chỉ còn bốn mươi bảy ký rưỡi. Cả sân im phăng phắc, Thắng Lanh tái mặt. | HỤT 2,5 KÝ / BAO 50 KÝ |
 | S09 | 0:45–0:51 | LEO_THANG | bai_can | Thang Lanh | Thắng Lanh gãi đầu, nói chắc tại cân hết pin, cân này anh mượn của kho, anh cũng không biết. |  |
 | S10 | 0:51–0:57 | LEO_THANG | bai_can | Co Hai, Thang Lanh | Cô Hai không nói nặng lời. Chị chỉ xin chở hết ra trạm cân đầu xã, cân lại từ đầu. |  |
-| S11 | 0:57–1:03 | DINH_DIEM | bai_can | — | Cân lại ở trạm, ba tấn tròn. Cân bàn khi nãy chỉ ghi hai nghìn tám trăm năm mươi ký. | 3.000 KÝ  vs  2.850 KÝ |
-| S12 | 1:03–1:08 | DINH_DIEM | bai_can | Co Hai | Bà con tính giùm. Hụt một trăm năm mươi ký, nhân chín mươi nghìn, là mười ba triệu rưỡi. | 150 KÝ × 90.000Đ = 13.500.000Đ |
-| S13 | 1:08–1:14 | HOA_GIAI | vuon | Thang Lanh, Co Hai | Thắng Lanh xin lỗi, bù đủ tiền một trăm năm mươi ký, và hứa trả cái cân đó lại cho kho. |  |
-| S14 | 1:14–1:20 | HOA_GIAI | vuon | Co Hai, Thang Lanh | Cô Hai cũng vui vẻ bỏ qua. Mùa sau, hai bên vẫn làm ăn, nhưng cân lúc nào cũng được thử trước. |  |
-| S15 | 1:20–1:27 | GOC_NHIN | vuon | Nguoi Ke | Tuấn Thủy thấy, cân lệch có khi do máy, có khi do người. Thử cân trước thì chẳng ai phải mất lòng. |  |
-| S16 | 1:27–1:33 | MEO | bai_can | Nguoi Ke | Mẹo nhỏ: trước khi cân, đặt thử một vật biết trước khối lượng, như bao phân, can nước, hay quả cân chuẩn. | THỬ CÂN BẰNG VẬT BIẾT TRƯỚC KÝ |
-| S17 | 1:33–1:39 | MEO | bai_can | Em Tuan | Và cân thử lại giữa chừng vài lần. Cân đúng thì người mua cũng yên tâm, chứ đâu riêng nhà vườn. |  |
-| S18 | 1:39–1:45 | CAU_HOI_2_PHE | vuon | Co Hai | Theo bà con, lỡ cân lệch mà bên mua không hay biết, thì có nên bù tiền cho nhà vườn không? |  |
-| S19 | 1:45–1:52 | KET_1 | vuon | Nguoi Ke, Em Tuan | Có hàng cần bán, bà con cứ gọi Tuấn Thủy. Mình cùng trao đổi rõ ràng, thuận mua vừa bán, ai cũng vui. |  |
-| S20 | 1:52–1:56 | KET_2 | vuon | Nguoi Ke | Cảm ơn bà con đã tin tưởng và hẹn gặp lại trong những vườn sầu riêng. |  |
+| S11 | 0:57–1:04 | DINH_DIEM | bai_can | Ba Nam | Ở trạm cân đầu xã, Bà Năm cân lại, ba tấn tròn. Cân bàn khi nãy chỉ ghi hai nghìn tám trăm năm mươi ký. | 3.000 KÝ  vs  2.850 KÝ |
+| S12 | 1:04–1:09 | DINH_DIEM | bai_can | Co Hai | Bà con tính giùm. Hụt một trăm năm mươi ký, nhân chín mươi nghìn, là mười ba triệu rưỡi. | 150 KÝ × 90.000Đ = 13.500.000Đ |
+| S13 | 1:09–1:15 | HOA_GIAI | vuon | Thang Lanh, Co Hai | Thắng Lanh xin lỗi, bù đủ tiền một trăm năm mươi ký, và hứa trả cái cân đó lại cho kho. |  |
+| S14 | 1:15–1:22 | HOA_GIAI | vuon | Co Hai, Thang Lanh | Cô Hai cũng vui vẻ bỏ qua. Mùa sau, hai bên vẫn làm ăn, nhưng cân lúc nào cũng được thử trước. |  |
+| S15 | 1:22–1:28 | GOC_NHIN | vuon | Nguoi Ke | Tuấn Thủy thấy, cân lệch có khi do máy, có khi do người. Thử cân trước thì chẳng ai phải mất lòng. |  |
+| S16 | 1:28–1:34 | MEO | bai_can | Nguoi Ke | Mẹo nhỏ: trước khi cân, đặt thử một vật biết trước khối lượng, như bao phân, can nước, hay quả cân chuẩn. | THỬ CÂN BẰNG VẬT BIẾT TRƯỚC KÝ |
+| S17 | 1:34–1:40 | MEO | bai_can | Em Tuan | Và cân thử lại giữa chừng vài lần. Cân đúng thì người mua cũng yên tâm, chứ đâu riêng nhà vườn. |  |
+| S18 | 1:40–1:46 | CAU_HOI_2_PHE | vuon | Co Hai | Theo bà con, lỡ cân lệch mà bên mua không hay biết, thì có nên bù tiền cho nhà vườn không? |  |
+| S19 | 1:46–1:53 | KET_1 | vuon | Nguoi Ke, Em Tuan | Có hàng cần bán, bà con cứ gọi Tuấn Thủy. Mình cùng trao đổi rõ ràng, thuận mua vừa bán, ai cũng vui. |  |
+| S20 | 1:53–1:58 | KET_2 | vuon | Nguoi Ke | Cảm ơn bà con đã tin tưởng và hẹn gặp lại trong những vườn sầu riêng. |  |
 
-**Tổng ước tính:** 1:56
+**Tổng ước tính:** 1:58
 
 ## Prompt Google Flow (Veo 3.1 Lite, 16:9, x1)
 
@@ -107,7 +107,7 @@ Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm fil
 ### S11 — DINH_DIEM
 
 ```
-Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a roadside truck weighbridge station in the Vietnamese countryside, a small booth, dusty road. A small truck loaded with green durians drives slowly onto the large metal weighbridge platform and stops; a worker waves it forward. Display not readable. Sound: truck engine rumbling, metal platform clunking, road ambience. No dialogue, no music, no on-screen text.
+Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a roadside truck weighbridge station in the Vietnamese countryside, a small booth with an open window, dusty road. A small truck loaded with green durians drives slowly onto the large metal weighbridge platform and stops. Ba Nam, a woman around 65, grey hair in a bun, light blue blouse, reading glasses hanging on a cord, leans out of the booth window, waves the truck to stop, then writes carefully in a ledger. Display and ledger text not readable. Mouth closed. Sound: truck engine rumbling, metal platform clunking, road ambience. No dialogue, no music, no on-screen text.
 ```
 
 ### S12 — DINH_DIEM

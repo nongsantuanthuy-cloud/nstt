@@ -2,7 +2,7 @@
 
 **Chủ đề:** Giá sập, cò định bỏ cọc — Cô Hai gỡ kèo, hai bên cùng giữ chữ tín
 
-**Ghi chú:** Phe gặp khó: cả hai. Thắng Lanh không phải kẻ xấu — giá sập toàn vùng. Hóa giải: giữ kèo ở giá 75k, cọc trừ vào tiền hàng; Thắng Lanh lỗ bằng tiền cọc nhưng giữ uy tín, Cô Hai hơn 20 triệu so với bán lẻ.
+**Ghi chú:** v2 30/09: thay người mua lẻ vô danh bằng Út Nhỏ (S08, S09). Phe gặp khó: cả hai. Thắng Lanh không phải kẻ xấu — giá sập toàn vùng. Hóa giải: giữ kèo ở giá 75k, cọc trừ vào tiền hàng; Thắng Lanh lỗ bằng tiền cọc nhưng giữ uy tín, Cô Hai hơn 20 triệu so với bán lẻ.
 
 ## Bảng tính
 
@@ -29,19 +29,19 @@
 | S06 | 0:28–0:34 | LEO_THANG | kho | Bay Loi, Thang Lanh | Tới ngày cắt, kho Bảy Lợi chỉ còn mua bảy mươi nghìn. Thắng Lanh tính tới tính lui, mặt xám ngắt. |  |
 | S07 | 0:34–0:39 | LEO_THANG | vuon | Thang Lanh | Giữ kèo, anh lỗ tròn một trăm triệu. Bỏ cọc, anh chỉ mất hai chục. Thắng Lanh chọn bỏ cọc. | GIỮ KÈO: −100TR  |  BỎ CỌC: −20TR |
 | S08 | 0:39–0:45 | LEO_THANG | vuon | Co Hai | Còn Cô Hai, bốn tấn trái đã tới độ. Để thêm vài bữa là rụng, là nứt, không chờ được. |  |
-| S09 | 0:45–0:51 | DINH_DIEM | vuon | Co Hai | Bán lẻ quanh đây, người ta chỉ trả sáu mươi lăm nghìn. Bốn tấn được hai trăm sáu chục triệu. | 4 TẤN × 65.000Đ = 260TR |
-| S10 | 0:51–0:57 | DINH_DIEM | vuon | Co Hai | Cộng hai chục tiền cọc, là hai trăm tám chục. Hụt đúng một trăm triệu so với kèo ban đầu. | 280TR  vs  KÈO 380TR |
-| S11 | 0:57–1:03 | HOA_GIAI | vuon | Co Hai, Thang Lanh | Cô Hai không mắng. Chị gọi Thắng Lanh ra vườn, rót ly trà, nói giá sập đâu phải lỗi riêng ai. |  |
-| S12 | 1:03–1:08 | HOA_GIAI | vuon | Co Hai, Thang Lanh | Chị đề nghị: anh vẫn lấy hàng, giá bảy mươi lăm nghìn, tiền cọc trừ vào tiền hàng. | GIÁ MỚI 75.000Đ/KÝ |
-| S13 | 1:08–1:15 | HOA_GIAI | vuon | Thang Lanh, Co Hai | Tính ra, Thắng Lanh vẫn lỗ hai chục, bằng tiền cọc, mà giữ được chữ tín. Cô Hai có thêm hai chục triệu. | CÙNG LỖ ÍT — GIỮ CHỮ TÍN |
-| S14 | 1:15–1:21 | GOC_NHIN | vuon | Nguoi Ke | Tuấn Thủy thấy, lúc giá sập, người mua người bán đều khổ. Chia nhau cái khó, thì còn gặp nhau mùa sau. |  |
-| S15 | 1:21–1:27 | MEO | vuon | Nguoi Ke | Mẹo nhỏ: giấy cọc nên ghi rõ, nếu giá lên xuống quá mười nghìn thì hai bên ngồi lại thương lượng. | GIẤY CỌC: GHI ĐIỀU KHOẢN GIÁ |
-| S16 | 1:27–1:33 | MEO | vuon | Em Tuan | Và đừng chốt kèo quá xa ngày cắt. Chốt càng gần ngày, giá càng sát, hai bên càng ít rủi ro. |  |
-| S17 | 1:33–1:39 | CAU_HOI_2_PHE | vuon | Co Hai | Theo bà con, giá sập mà bỏ cọc là quyền của người mua, hay phải giữ kèo tới cùng? |  |
-| S18 | 1:39–1:45 | KET_1 | vuon | Nguoi Ke, Em Tuan | Có hàng cần bán, bà con cứ gọi Tuấn Thủy. Mình cùng trao đổi rõ ràng, thuận mua vừa bán, ai cũng vui. |  |
-| S19 | 1:45–1:50 | KET_2 | vuon | Nguoi Ke | Cảm ơn bà con đã tin tưởng và hẹn gặp lại trong những vườn sầu riêng. |  |
+| S09 | 0:45–0:52 | DINH_DIEM | vuon | Ut Nho, Co Hai | Út Nhỏ, con gái chị, đăng bán lên mạng, ai cũng chỉ trả sáu mươi lăm nghìn. Bốn tấn được hai trăm sáu chục triệu. | 4 TẤN × 65.000Đ = 260TR |
+| S10 | 0:52–0:58 | DINH_DIEM | vuon | Co Hai | Cộng hai chục tiền cọc, là hai trăm tám chục. Hụt đúng một trăm triệu so với kèo ban đầu. | 280TR  vs  KÈO 380TR |
+| S11 | 0:58–1:04 | HOA_GIAI | vuon | Co Hai, Thang Lanh | Cô Hai không mắng. Chị gọi Thắng Lanh ra vườn, rót ly trà, nói giá sập đâu phải lỗi riêng ai. |  |
+| S12 | 1:04–1:09 | HOA_GIAI | vuon | Co Hai, Thang Lanh | Chị đề nghị: anh vẫn lấy hàng, giá bảy mươi lăm nghìn, tiền cọc trừ vào tiền hàng. | GIÁ MỚI 75.000Đ/KÝ |
+| S13 | 1:09–1:16 | HOA_GIAI | vuon | Thang Lanh, Co Hai | Tính ra, Thắng Lanh vẫn lỗ hai chục, bằng tiền cọc, mà giữ được chữ tín. Cô Hai có thêm hai chục triệu. | CÙNG LỖ ÍT — GIỮ CHỮ TÍN |
+| S14 | 1:16–1:22 | GOC_NHIN | vuon | Nguoi Ke | Tuấn Thủy thấy, lúc giá sập, người mua người bán đều khổ. Chia nhau cái khó, thì còn gặp nhau mùa sau. |  |
+| S15 | 1:22–1:28 | MEO | vuon | Nguoi Ke | Mẹo nhỏ: giấy cọc nên ghi rõ, nếu giá lên xuống quá mười nghìn thì hai bên ngồi lại thương lượng. | GIẤY CỌC: GHI ĐIỀU KHOẢN GIÁ |
+| S16 | 1:28–1:34 | MEO | vuon | Em Tuan | Và đừng chốt kèo quá xa ngày cắt. Chốt càng gần ngày, giá càng sát, hai bên càng ít rủi ro. |  |
+| S17 | 1:34–1:40 | CAU_HOI_2_PHE | vuon | Co Hai | Theo bà con, giá sập mà bỏ cọc là quyền của người mua, hay phải giữ kèo tới cùng? |  |
+| S18 | 1:40–1:46 | KET_1 | vuon | Nguoi Ke, Em Tuan | Có hàng cần bán, bà con cứ gọi Tuấn Thủy. Mình cùng trao đổi rõ ràng, thuận mua vừa bán, ai cũng vui. |  |
+| S19 | 1:46–1:51 | KET_2 | vuon | Nguoi Ke | Cảm ơn bà con đã tin tưởng và hẹn gặp lại trong những vườn sầu riêng. |  |
 
-**Tổng ước tính:** 1:50
+**Tổng ước tính:** 1:51
 
 ## Prompt Google Flow (Veo 3.1 Lite, 16:9, x1)
 
@@ -90,13 +90,13 @@ Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm fil
 ### S08 — LEO_THANG
 
 ```
-Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a durian orchard, very large ripe durians hanging low, one already fallen on the red soil. A ripe durian drops from a branch and thuds onto the ground next to Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, who kneels down, picks it up with both hands and looks up at the heavy branches anxiously. Sound: heavy thud of a falling durian, leaves rustling. No dialogue, no music, no on-screen text.
+Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a durian orchard, very large ripe durians hanging low, one already fallen on the red soil. A ripe durian drops from a branch and thuds onto the ground next to Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, who kneels down, picks it up with both hands and looks up at the heavy branches anxiously, while Ut Nho, a young woman around 22, simple pastel T-shirt, jeans, hair in a ponytail, holding a smartphone, stands beside her looking worried. Mouths closed. Sound: heavy thud of a falling durian, leaves rustling. No dialogue, no music, no on-screen text.
 ```
 
 ### S09 — DINH_DIEM
 
 ```
-Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: a durian orchard gate by a dirt road. Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, stands at the orchard gate listening to a local buyer in a plain grey shirt who shakes his head and holds up a hand, she lowers her eyes in disappointment. Mouths closed. Sound: road ambience, cicadas. No dialogue, no music, no on-screen text.
+Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion. Setting: the porch of a wooden farmhouse beside a durian orchard, a low red plastic stool. Ut Nho, a young woman around 22, simple pastel T-shirt, jeans, hair in a ponytail, holding a smartphone, sits on the low red plastic stool scrolling and typing quickly on her phone, then looks up and shakes her head sadly at Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, who stands beside her and lowers her eyes. Phone screen not visible. Mouths closed. Sound: phone tapping, message notification sounds, cicadas. No dialogue, no music, no on-screen text.
 ```
 
 ### S10 — DINH_DIEM

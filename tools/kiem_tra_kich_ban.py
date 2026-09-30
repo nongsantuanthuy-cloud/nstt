@@ -25,6 +25,11 @@ NHAN_VAT = {
     "Co Hai": "dark brown ba ba shirt",
     "Bay Loi": "plain camouflage bucket hat with no badge",
     "Thang Lanh": "slicked hair, thin mustache",
+    # Nhân vật mới — chủ kênh duyệt 30/09/2026
+    "Chu Tu": "faded plaid shirt, checkered krama scarf",
+    "Ut Nho": "simple pastel T-shirt, jeans, hair in a ponytail",
+    "Sau Tai": "orange high-visibility work shirt",
+    "Ba Nam": "grey hair in a bun, light blue blouse",
 }
 CAM = ["Chu Ba", "Ong Sau Cu"]
 PHAN = ["HOOK", "CAU_MO", "BOI_CANH", "VONG_LAP", "LEO_THANG", "DINH_DIEM", "HOA_GIAI",

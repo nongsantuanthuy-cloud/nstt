@@ -8,14 +8,14 @@ Nguyên tắc: xoay vòng phe "gặp khó" (nhà vườn ↔ thương lái ↔ k
 | 1 | Cò hứa giá cao không lựa, ra kho trừ bì + bắt dạt, hụt 89 tr | Nhà vườn | KỊCH BẢN (bản mẫu) | NSTT-20260930-A |
 | 2 | Cái bao phân biết nói — cân lệch 5%, hụt 150 ký | Nhà vườn | KỊCH BẢN | NSTT-20261001-A |
 | 3 | Giá sập, cò bỏ cọc — hai bên chia lỗ | Cả hai | KỊCH BẢN | NSTT-20261001-B |
-| 4 | Giá lên, có người trả cao hơn — giữ chữ tín hay bẻ kèo | Thương lái | KỊCH BẢN | NSTT-20261002-A |
+| 4 | Giá lên, có người trả cao hơn — giữ chữ tín hay bẻ kèo (Chú Tư) | Thương lái | KỊCH BẢN | NSTT-20261002-A |
 | 5 | Trái non cắt sớm, kho cắt ra sượng — ai chịu? | Thương lái | Ý TƯỞNG | |
-| 6 | Xe hàng đêm mưa lật ổ gà — hàng bầm trầy ai đền | Tài xế / thương lái | Ý TƯỞNG | |
+| 6 | Xe hàng đêm mưa lật ổ gà — hàng bầm trầy ai đền (Anh Sáu Tài) | Tài xế / thương lái | Ý TƯỞNG — ưu tiên | |
 | 7 | Nhà vườn giấu trái sâu dưới đáy sọt | Thương lái | Ý TƯỞNG | |
 | 8 | Hàng rớt container vì dư lượng — kho gánh lỗ | Chủ kho | Ý TƯỞNG | |
 | 9 | Hai thương lái giành một vườn, nhà vườn "đấu giá" rồi mất cả hai | Nhà vườn | Ý TƯỞNG | |
 | 10 | Mua bao vườn (mua xô) cả mùa — trúng hay trật | Cả hai | Ý TƯỞNG | |
-| 11 | Chuyển khoản "đã gửi" mà không thấy tiền (lừa ảnh chuyển khoản) | Nhà vườn | Ý TƯỞNG | |
+| 11 | Chuyển khoản "đã gửi" mà không thấy tiền (Út Nhỏ) | Nhà vườn | Ý TƯỞNG — ưu tiên | |
 | 12 | Thợ cắt làm gãy cành, ai đền | Nhà vườn / đội cắt | Ý TƯỞNG | |
 | 13 | Tiền cọc viết tay không ghi ngày cắt | Cả hai | Ý TƯỞNG | |
 | 14 | Kho từ chối nhận vì "hàng không đủ ký" — tiêu chuẩn mỗi kho khác nhau | Nhà vườn | Ý TƯỞNG | |
