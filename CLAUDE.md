@@ -48,6 +48,7 @@ hotline/Zalo **0392.547.547**.
 | `tools/kiem_tra_kich_ban.py` | Kiểm tra `canh.json`: độ dài ước tính, số viết bằng chữ, tên nhân vật, cấu trúc |
 | `tools/trich_khung_hinh.py` | Trích khung hình + bảng cảnh từ video mẫu (ffmpeg) |
 | `tools/moc_tu_whisper.py` | (máy) Whisper kiểm tra thoại Veo đúng lời/tiếng Việt + mốc từng chữ |
+| `tools/xuat_trang_duyet.py` | Xuất trang HTML đọc kịch bản trên điện thoại → xuất bản Artifact (chủ kênh KHÔNG xem được file .md có bảng rộng) |
 | `tools/dung_video_v3.py` | Dựng video v3: cắt góc toàn/cận/đặc tả, phụ đề karaoke, chữ lớn, logo, −14 LUFS (chỉ cần ffmpeg) |
 
 ## Môi trường
