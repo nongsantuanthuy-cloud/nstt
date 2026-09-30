@@ -12,11 +12,13 @@ Repo này là **nguồn kiến thức DUY NHẤT** của dự án (chủ kênh c
 - Tên kênh: **Nông Sản Tuấn Thủy** (không viết "Tuấn Thúy").
 - Dàn nhân vật 9 người (5 cũ + Chú Tư, Út Nhỏ, Anh Sáu Tài, Bà Năm Cân) — docs/01.
 - Repo GitHub là nguồn kiến thức chung duy nhất — docs/09.
+- **Nhân vật tự thoại, bỏ người kể UV07** (Tuấn Thủy nói thẳng vào máy ở đầu/cuối); cắt + phóng to trong clip;
+  phụ đề karaoke — docs/03 mục 6, docs/08.
 
 ## Mục tiêu dự án
 Sản xuất tự động video drama ngắn (~2 phút, dọc 9:16) cho Facebook Reels, TikTok, YouTube Shorts
 về chuyện thu mua sầu riêng (nhà vườn – thương lái – chủ kho – cò), hình ảnh AI (Google Flow / Veo),
-giọng kể 1 người (Tuấn Thủy). Mục đích thương mại: xây uy tín cho thương hiệu thu mua **Nông Sản Tuấn Thủy**,
+nhân vật tự thoại (Veo tạo tiếng), Tuấn Thủy mở và kết video. Mục đích thương mại: xây uy tín cho thương hiệu thu mua **Nông Sản Tuấn Thủy**,
 hotline/Zalo **0392.547.547**.
 
 ## Quy tắc làm việc (chủ kênh yêu cầu)
@@ -45,11 +47,14 @@ hotline/Zalo **0392.547.547**.
 | `kich_ban/<ma_video>/` | `canh.json`, `kich_ban.md`, `seo.md`, `trang_thai.md` |
 | `tools/kiem_tra_kich_ban.py` | Kiểm tra `canh.json`: độ dài ước tính, số viết bằng chữ, tên nhân vật, cấu trúc |
 | `tools/trich_khung_hinh.py` | Trích khung hình + bảng cảnh từ video mẫu (ffmpeg) |
+| `tools/moc_tu_whisper.py` | (máy) Whisper kiểm tra thoại Veo đúng lời/tiếng Việt + mốc từng chữ |
+| `tools/dung_video_v3.py` | Dựng video v3: cắt góc toàn/cận/đặc tả, phụ đề karaoke, chữ lớn, logo, −14 LUFS (chỉ cần ffmpeg) |
 
 ## Môi trường
 - Máy chủ kênh (Windows): `D:\CLAUDE DU AN NSTT\kenh nstt` — có OmniVoice (giọng UV07), Remotion, Node portable.
 - Google Drive: thư mục `NSTT` (id `186KubQ392b4upLEwBkh1n-jO8Tx5ITuk`) — `docs`, `kich_ban`, `thuong_hieu`, `nhat_ky`.
-- Phiên cloud (repo này) KHÔNG chạy được Flow/OmniVoice/Remotion → chỉ làm kịch bản, prompt, SEO, công cụ kiểm tra, tài liệu.
+- Phiên cloud KHÔNG chạy được Flow/Whisper (mạng chặn HuggingFace, Drive) → làm kịch bản, prompt, SEO, công cụ, tài liệu;
+  chạy được `dung_video_v3.py` nếu chủ kênh tải clip lên phiên.
 
 ## Kiểm tra nhanh trước khi giao kịch bản
 ```

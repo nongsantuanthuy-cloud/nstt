@@ -75,3 +75,33 @@ cần bổ sung vào `hau_ky/src/NsttVideo.tsx` (xem CAU_HOI).
 - **Nhịp cắt 2–3 s**: video mẫu 50 cảnh/116 s; NSTT 20 cảnh × 6 s. Cách rẻ: trong mỗi clip Veo 8 s, hậu kỳ cắt 2–3 đoạn
   + phóng to (toàn → cận mặt → đặc tả), không tốn thêm credit. Cách đắt: thêm clip đặc tả vật chứng (~+5 clip/video = +50 credit).
 - **Phụ đề karaoke** 2–3 chữ IN HOA, chữ trắng viền đen, từ đang đọc đổi vàng #F2CD41, đặt ~75% chiều cao.
+
+## 6. Bản 4 — CHUẨN HIỆN HÀNH từ 30/09/2026: nhân vật tự thoại (`"kieu": "thoai"`)
+Chủ kênh chốt: (a) cắt + phóng to trong clip · phụ đề karaoke · nhân vật có thoại, bỏ người kể.
+Các mục 1–4 ở trên (người kể UV07) chỉ còn để tham khảo cho kịch bản cũ.
+
+**Khung:** giữ thứ tự HOOK → CAU_MO → BOI_CANH → VONG_LAP → LEO_THANG → DINH_DIEM → HOA_GIAI → GOC_NHIN → MEO →
+CAU_HOI_2_PHE → KET_1 → KET_2; 18–24 clip. Phần truyện (HOOK→HOA_GIAI) do nhân vật nói với nhau;
+phần GOC_NHIN→KET do Tuấn Thủy/Em Tuấn nói thẳng vào máy.
+
+**Quy tắc thoại:**
+- 1 clip Veo 8 s = tối đa **26 âm tiết** và tốt nhất **1 người nói** (tối đa 2 lượt). Câu dài → tách clip.
+- Văn nói miền Nam–Tây Nguyên tự nhiên: "con", "cô", "má", "nha", "hả", "lẹ", "nè". Số vẫn **viết bằng chữ**.
+- Bảng tính lời lỗ do nhân vật nói (Út Nhỏ, Chú Tư, Bà Năm tính giùm) + `chu_man_hinh` hiện số.
+- Không lời thoại trong 1 clip → Veo ghi "Nobody speaks." (clip đặc tả/không khí, dùng ~2,5 s).
+
+**Mẫu prompt thoại:**
+```
+Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: <bối cảnh>. <Tên Flow + mô tả>, <hành động>. <Tên> says <giọng>: "<câu tiếng Việt>" Then <Tên 2> says <giọng 2>: "<câu>" Sound: <âm thanh nền>. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.
+```
+
+**`canh.json` v3 — mỗi cảnh:**
+```json
+{"so": "S01", "phan": "HOOK", "boi_canh": "bai_can", "nhan_vat": ["Co Hai", "Thang Lanh"],
+ "thoai": [{"nv": "Co Hai", "cau": "Bao phân năm chục ký, sao cân chỉ có bốn bảy ký rưỡi vậy con?"}],
+ "cat": ["dac_ta", "can"],            // góc hậu kỳ: toan | can | dac_ta — chia đều đoạn dùng
+ "chu_man_hinh": "50 KÝ → 47,5 KÝ ?", // tùy chọn
+ "tam_x": 0.5, "dung": [0.4, 5.2],    // tùy chọn, chỉnh sau khi xem clip thật
+ "prompt_flow": "..."}
+```
+Nhịp: mỗi clip dùng ~3–6 s, chia 2–3 góc → mỗi góc 1,5–3 s (gần nhịp 2,3 s của video mẫu) mà không tốn thêm credit.

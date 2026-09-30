@@ -21,7 +21,25 @@ Nguồn: Drive `NSTT/docs/thông tin kênh nông sản tuấn thủy`, `thuong_h
   1. *"Có hàng cần bán, bà con cứ gọi Tuấn Thủy. Mình cùng trao đổi rõ ràng, thuận mua vừa bán, ai cũng vui."*
   2. *"Cảm ơn bà con đã tin tưởng và hẹn gặp lại trong những vườn sầu riêng."*
 
-## 3. Dàn nhân vật (CÂM HOÀN TOÀN — chỉ giọng kể UV07)
+## 3. Dàn nhân vật — TỪ 30/09/2026 NHÂN VẬT TỰ THOẠI (chủ kênh chốt)
+- Không còn người kể giọng đọc (UV07). Câu chuyện diễn ra bằng **lời thoại của nhân vật**, Veo tạo tiếng + khẩu hình.
+- **Tuấn Thủy** (`Nguoi Ke`) vẫn xuất hiện đầu/cuối nhưng là **nhân vật nói thẳng vào máy** (kiểu vlog chủ kênh):
+  câu mở, góc nhìn, mẹo, câu hỏi, 2 câu kết — không lồng tiếng đè lên cảnh khác.
+- Mỗi nhân vật có **giọng cố định** (mô tả chèn vào prompt, xem bảng giọng dưới) để Veo giữ đồng nhất.
+
+| Tên Flow | Giọng (chèn sau "says") |
+|---|---|
+| `Nguoi Ke` | in a warm, clear young female voice with a Southern Vietnamese accent |
+| `Em Tuan` | in a friendly young male voice with a Southern Vietnamese accent |
+| `Co Hai` | in a warm, slightly husky middle-aged female voice with a Southern Vietnamese accent |
+| `Bay Loi` | in a deep, gruff male voice with a Southern Vietnamese accent |
+| `Thang Lanh` | in a fast, smooth-talking male voice with a Southern Vietnamese accent |
+| `Chu Tu` | in a slow, calm elderly male voice with a Southern Vietnamese accent |
+| `Ut Nho` | in a bright young female voice with a Southern Vietnamese accent |
+| `Sau Tai` | in a hearty male voice with a Southern Vietnamese accent |
+| `Ba Nam` | in a firm elderly female voice with a Southern Vietnamese accent |
+
+Bảng ngoại hình (giữ nguyên):
 Tên Flow viết không dấu. Mỗi prompt phải gọi tên + chèn nguyên văn mô tả.
 
 | Nhân vật | Tên Flow | Vai trò | Mô tả chèn vào prompt |
