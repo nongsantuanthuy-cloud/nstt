@@ -62,3 +62,16 @@ Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm fil
 `boi_canh` dùng để mượn tiếng nền sạch khi clip có tiếng nước ngoài. `bai_can` = bãi cân/sân vườn có xe tải
 (nếu `hau_ky_nstt.py` chỉ hiểu `vuon`/`kho` thì map `bai_can` → `vuon`). `chu_man_hinh` là trường mới —
 cần bổ sung vào `hau_ky/src/NsttVideo.tsx` (xem CAU_HOI).
+
+## 5. Bản 3 (30/09/2026) — bài học từ phân tích thật video mẫu (docs/02b)
+Đã áp dụng ngay (không cần đổi công cụ):
+- Giây 0 phải là **hành động xung đột** (chặn xe, đặt bao lên cân, điện thoại rung) — không mở bằng cảnh tĩnh.
+- Mỗi video có **1 bằng chứng nhìn thấy được** (bao phân, phiếu cân, giấy cọc, tin nhắn) và **1 lần lật ngược** nhẹ.
+- Phe "tưởng xấu" được cho lý do / hóa ra không xấu (video mẫu: thương lái ngay thẳng, thủ phạm là người thứ ba).
+- Câu chốt đạo lý ngắn trước phần góc nhìn.
+- Không logo đài/báo, không viết tắt số ("2T"), phụ đề lấy đúng từ `loi`.
+
+ĐỀ XUẤT chờ chủ kênh (cần sửa hậu kỳ trên máy — CAU_HOI #11, #12):
+- **Nhịp cắt 2–3 s**: video mẫu 50 cảnh/116 s; NSTT 20 cảnh × 6 s. Cách rẻ: trong mỗi clip Veo 8 s, hậu kỳ cắt 2–3 đoạn
+  + phóng to (toàn → cận mặt → đặc tả), không tốn thêm credit. Cách đắt: thêm clip đặc tả vật chứng (~+5 clip/video = +50 credit).
+- **Phụ đề karaoke** 2–3 chữ IN HOA, chữ trắng viền đen, từ đang đọc đổi vàng #F2CD41, đặt ~75% chiều cao.

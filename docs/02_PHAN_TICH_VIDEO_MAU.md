@@ -3,11 +3,9 @@
 Cập nhật 30/09/2026. Nguồn: Drive `NSTT/docs/thong tin video mau` (bản mô tả của chủ kênh),
 `NSTT/docs/video mẫu.mp4` (19,6 MB), `NSTT/kich_ban/NSTT-20260930-A/canh.json`.
 
-> ⚠️ **Giới hạn phiên 30/09:** phiên cloud chưa mở được file `video mẫu.mp4` (file riêng tư, 19,6 MB,
-> công cụ Drive chỉ trả base64 quá lớn). Phần A dưới đây phân tích theo mô tả của chủ kênh + chuẩn ngành.
-> Khi có file (chia sẻ "Bất kỳ ai có đường liên kết" hoặc chạy trên máy chủ kênh):
-> `python3 tools/trich_khung_hinh.py "video mẫu.mp4"` → sinh ảnh từng cảnh + `bang_canh.csv`,
-> rồi cập nhật lại bảng mốc giây cho chính xác và ghi vào nhật ký.
+> ✅ **Phân tích THẬT từng khung (50 cảnh, lời thoại, phụ đề, âm thanh) ở `docs/02b_VIDEO_MAU_TUNG_KHUNG.md`** — đúng hơn phần A dưới.
+> Phần A là bản ước tính cũ theo mô tả của chủ kênh; chỗ nào mâu thuẫn thì theo 02b
+> (ví dụ: video mẫu KHÔNG có nhạc nền liên tục, có 50 lần cắt cảnh, thủ phạm là nhân viên cân chứ không phải thương lái).
 
 ## A. Video mẫu tham khảo (kênh khác) — "Cái cân biết nói"
 **Chủ đề:** thương lái gian lận cân ("chỉnh cân") khi thu mua sầu riêng tại vườn/bãi tập kết.

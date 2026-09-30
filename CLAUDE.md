@@ -32,6 +32,7 @@ hotline/Zalo **0392.547.547**.
 |---|---|
 | `docs/01_THUONG_HIEU_NHAN_VAT.md` | Thương hiệu, màu, câu mở/kết, dàn nhân vật + mô tả prompt |
 | `docs/02_PHAN_TICH_VIDEO_MAU.md` | Phân tích video mẫu + kịch bản mẫu theo từng khung/cảnh |
+| `docs/02b_VIDEO_MAU_TUNG_KHUNG.md` | Phân tích THẬT video mẫu: 50 cảnh, lời thoại, phụ đề, âm thanh + ảnh `docs/hinh_video_mau/` |
 | `docs/03_CAU_TRUC_KICH_BAN.md` | Khung 2 phút theo từng giây, quy tắc viết lời, định dạng `canh.json` |
 | `docs/04_SEO_VA_LICH_DANG.md` | Tiêu đề, mô tả, hashtag, giờ đăng |
 | `docs/05_KHO_CHU_DE.md` | Kho chủ đề + trạng thái đã/chưa làm |
@@ -40,7 +41,7 @@ hotline/Zalo **0392.547.547**.
 | `docs/09_NGUON_KIEN_THUC_CHUNG.md` | Repo = nguồn duy nhất; cách gộp thư mục máy chủ kênh |
 | `thuong_hieu/nhan_vat_moi.md` | Prompt tạo ảnh tham chiếu Flow cho 4 nhân vật mới |
 | `.claude/skills/nstt-san-xuat-video/` | Skill dự án (tự nạp) |
-| `docs/10_DE_XUAT_NHAN_VAT_THUONG_HIEU.md` | Đề xuất đổi tên / nhân vật mới (chờ chủ kênh chọn) |
+| `docs/10_DE_XUAT_NHAN_VAT_THUONG_HIEU.md` | Đề xuất đổi tên / nhân vật (đã chốt 30/09) |
 | `kich_ban/<ma_video>/` | `canh.json`, `kich_ban.md`, `seo.md`, `trang_thai.md` |
 | `tools/kiem_tra_kich_ban.py` | Kiểm tra `canh.json`: độ dài ước tính, số viết bằng chữ, tên nhân vật, cấu trúc |
 | `tools/trich_khung_hinh.py` | Trích khung hình + bảng cảnh từ video mẫu (ffmpeg) |
@@ -54,4 +55,4 @@ hotline/Zalo **0392.547.547**.
 ```
 python3 tools/kiem_tra_kich_ban.py kich_ban/<ma>/canh.json
 ```
-Phải báo `OK` (tổng 110–130 giây, không có chữ số trong lời, nhân vật hợp lệ).
+Phải báo `OK` (tổng 110–135 giây, không có chữ số trong lời, nhân vật hợp lệ).
