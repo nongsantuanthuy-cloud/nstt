@@ -37,7 +37,7 @@ Nguồn: Drive `NSTT/docs/thông tin kênh nông sản tuấn thủy`, `thuong_h
 | `Chu Tu` | in a slow, calm elderly male voice with a Southern Vietnamese accent |
 | `Ut Nho` | in a bright young female voice with a Southern Vietnamese accent |
 | `Sau Tai` | in a hearty male voice with a Southern Vietnamese accent |
-| `Ba Nam` | in a firm elderly female voice with a Southern Vietnamese accent |
+| `Ba Tam` | in a firm elderly female voice with a Southern Vietnamese accent |
 
 Bảng ngoại hình (giữ nguyên):
 Tên Flow viết không dấu. Mỗi prompt phải gọi tên + chèn nguyên văn mô tả.
@@ -52,7 +52,7 @@ Tên Flow viết không dấu. Mỗi prompt phải gọi tên + chèn nguyên v�
 | Chú Tư (mới) | `Chu Tu` | Nhà vườn nam lão làng, hàng xóm Cô Hai, hiền, "chốt lẽ phải" | Chu Tu, a man around 60, faded plaid shirt, checkered krama scarf around his neck, soft bucket hat, weathered kind face |
 | Út Nhỏ (mới, **ảnh thật chủ kênh cung cấp** `thuong_hieu/nhan_vat/ut_nho_goc.webp`) | `Ut Nho` | Con gái út Chú Năm, phụ vườn, bán hàng qua Zalo/Facebook | Ut Nho, the young woman in the reference: black square glasses, long black hair in a high ponytail with bangs, pink plaid long-sleeve shirt, black cargo pants, rubber boots, work gloves, conical hat on her back |
 | Anh Sáu Tài (mới) | `Sau Tai` | Tài xế xe tải chở sầu — nhân chứng trung lập | Sau Tai, a man around 40, truck driver, orange high-visibility work shirt, towel around his neck, cap |
-| Bà Năm Cân (mới) | `Ba Nam` | Giữ trạm cân đầu xã / cân đối chứng — "trọng tài" | Ba Nam, a woman around 65, grey hair in a bun, light blue blouse, reading glasses hanging on a cord |
+| Bà Tám Cân (mới) | `Ba Tam` | Giữ trạm cân đầu xã / cân đối chứng — "trọng tài" | Ba Tam, a woman around 65, grey hair in a bun, light blue blouse, reading glasses hanging on a cord |
 
 Út Nhỏ đã có ảnh (30/09). 3 nhân vật mới còn lại **chưa có ảnh tham chiếu trong Flow** → tạo theo `thuong_hieu/nhan_vat_moi.md` trước khi dựng clip có họ.
 

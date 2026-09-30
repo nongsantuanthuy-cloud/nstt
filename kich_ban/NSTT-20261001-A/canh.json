@@ -232,11 +232,11 @@
       "boi_canh": "bai_can",
       "nhan_vat": [
         "Sau Tai",
-        "Ba Nam"
+        "Ba Tam"
       ],
       "thoai": [
         {
-          "nv": "Ba Nam",
+          "nv": "Ba Tam",
           "cau": "Xe hàng tổng cộng ba tấn tròn nha. Không thiếu ký nào."
         }
       ],
@@ -245,7 +245,7 @@
         "can"
       ],
       "chu_man_hinh": "TRẠM CÂN: 3.000 KÝ",
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a roadside truck weighbridge station in the Vietnamese countryside, a small booth with an open window, dusty road. Sau Tai, a man around 40, truck driver, orange high-visibility work shirt, towel around his neck, cap, drives a small truck loaded with durians onto the large weighbridge and leans out of the cab window. Ba Nam, a woman around 65, grey hair in a bun, light blue blouse, reading glasses hanging on a cord, leans out of the booth window and writes in a ledger. Display and ledger text not readable. Ba Nam says in a firm elderly female voice with a Southern Vietnamese accent: \"Xe hàng tổng cộng ba tấn tròn nha. Không thiếu ký nào.\" Sound: truck engine rumbling, metal platform clunking, road ambience. All speech is in Vietnamese only. No music, no subtitles, no on-screen text."
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a roadside truck weighbridge station in the Vietnamese countryside, a small booth with an open window, dusty road. Sau Tai, a man around 40, truck driver, orange high-visibility work shirt, towel around his neck, cap, drives a small truck loaded with durians onto the large weighbridge and leans out of the cab window. Ba Tam, a woman around 65, grey hair in a bun, light blue blouse, reading glasses hanging on a cord, leans out of the booth window and writes in a ledger. Display and ledger text not readable. Ba Tam says in a firm elderly female voice with a Southern Vietnamese accent: \"Xe hàng tổng cộng ba tấn tròn nha. Không thiếu ký nào.\" Sound: truck engine rumbling, metal platform clunking, road ambience. All speech is in Vietnamese only. No music, no subtitles, no on-screen text."
     },
     {
       "so": "S12",

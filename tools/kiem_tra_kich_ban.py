@@ -33,7 +33,7 @@ NHAN_VAT = {
     "Chu Tu": "faded plaid shirt, checkered krama scarf",
     "Ut Nho": "black square glasses, long black hair in a high ponytail",
     "Sau Tai": "orange high-visibility work shirt",
-    "Ba Nam": "grey hair in a bun, light blue blouse",
+    "Ba Tam": "grey hair in a bun, light blue blouse",
 }
 CAM = ["Chu Ba", "Ong Sau Cu"]
 PHAN = ["HOOK", "CAU_MO", "BOI_CANH", "VONG_LAP", "LEO_THANG", "DINH_DIEM", "HOA_GIAI",
@@ -139,7 +139,7 @@ def kiem_tra(data: dict):
 
 
 TEN = {"Nguoi Ke": "Tuấn Thủy", "Em Tuan": "Em Tuấn", "Chu Nam": "Chú Năm", "Co Hai": "Cô Hai", "Bay Loi": "Bảy Lợi",
-       "Thang Lanh": "Thắng Lanh", "Chu Tu": "Chú Tư", "Ut Nho": "Út Nhỏ", "Sau Tai": "Anh Sáu Tài", "Ba Nam": "Bà Năm"}
+       "Thang Lanh": "Thắng Lanh", "Chu Tu": "Chú Tư", "Ut Nho": "Út Nhỏ", "Sau Tai": "Anh Sáu Tài", "Ba Tam": "Bà Tám"}
 
 
 def xuat_md(data: dict, path: Path):

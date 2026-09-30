@@ -29,7 +29,7 @@
 | S08 | 0:33–0:38 | LEO_THANG | bai_can | Chú Năm, Thắng Lanh, Út Nhỏ | **Chú Năm:** Bao phân năm chục ký chẵn đây. Con coi cái cân của con đi. | toan → can → can | HỤT 2,5 KÝ / BAO 50 KÝ |
 | S09 | 0:38–0:43 | LEO_THANG | bai_can | Thắng Lanh | **Thắng Lanh:** Chắc cân hết pin rồi chú ơi. Cân này con mượn của kho, con đâu có biết. | toan → can |  |
 | S10 | 0:43–0:49 | LEO_THANG | bai_can | Chú Năm, Thắng Lanh | **Chú Năm:** Chú không nói nặng lời. Mình chở hết ra trạm cân đầu xã, cân lại từ đầu.<br>**Thắng Lanh:** Dạ, được chú. | toan → can |  |
-| S11 | 0:49–0:53 | DINH_DIEM | bai_can | Anh Sáu Tài, Bà Năm | **Bà Năm:** Xe hàng tổng cộng ba tấn tròn nha. Không thiếu ký nào. | toan → can | TRẠM CÂN: 3.000 KÝ |
+| S11 | 0:49–0:53 | DINH_DIEM | bai_can | Anh Sáu Tài, Bà Tám | **Bà Tám:** Xe hàng tổng cộng ba tấn tròn nha. Không thiếu ký nào. | toan → can | TRẠM CÂN: 3.000 KÝ |
 | S12 | 0:53–1:00 | DINH_DIEM | bai_can | Chú Năm, Thắng Lanh | **Chú Năm:** Cân bàn ghi hai nghìn tám trăm năm chục. Hụt một trăm năm chục ký, là mười ba triệu rưỡi đó con. | can → dac_ta | 150 KÝ × 90.000Đ = 13.500.000Đ |
 | S13 | 1:00–1:05 | HOA_GIAI | vuon | Thắng Lanh, Chú Năm | **Thắng Lanh:** Con xin lỗi chú. Con bù đủ tiền, mai con trả cái cân lại cho kho. | toan → can |  |
 | S14 | 1:05–1:11 | HOA_GIAI | vuon | Chú Năm, Thắng Lanh | **Chú Năm:** Thôi, biết sai là được. Mùa sau vẫn bán cho con, mà cân phải thử trước nha.<br>**Thắng Lanh:** Dạ! | can → dac_ta |  |
@@ -107,7 +107,7 @@ Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm fil
 ### S11 — DINH_DIEM
 
 ```
-Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a roadside truck weighbridge station in the Vietnamese countryside, a small booth with an open window, dusty road. Sau Tai, a man around 40, truck driver, orange high-visibility work shirt, towel around his neck, cap, drives a small truck loaded with durians onto the large weighbridge and leans out of the cab window. Ba Nam, a woman around 65, grey hair in a bun, light blue blouse, reading glasses hanging on a cord, leans out of the booth window and writes in a ledger. Display and ledger text not readable. Ba Nam says in a firm elderly female voice with a Southern Vietnamese accent: "Xe hàng tổng cộng ba tấn tròn nha. Không thiếu ký nào." Sound: truck engine rumbling, metal platform clunking, road ambience. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.
+Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a roadside truck weighbridge station in the Vietnamese countryside, a small booth with an open window, dusty road. Sau Tai, a man around 40, truck driver, orange high-visibility work shirt, towel around his neck, cap, drives a small truck loaded with durians onto the large weighbridge and leans out of the cab window. Ba Tam, a woman around 65, grey hair in a bun, light blue blouse, reading glasses hanging on a cord, leans out of the booth window and writes in a ledger. Display and ledger text not readable. Ba Tam says in a firm elderly female voice with a Southern Vietnamese accent: "Xe hàng tổng cộng ba tấn tròn nha. Không thiếu ký nào." Sound: truck engine rumbling, metal platform clunking, road ambience. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.
 ```
 
 ### S12 — DINH_DIEM

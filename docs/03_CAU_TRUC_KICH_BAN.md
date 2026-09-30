@@ -87,7 +87,7 @@ phần GOC_NHIN→KET do Tuấn Thủy/Em Tuấn nói thẳng vào máy.
 **Quy tắc thoại:**
 - 1 clip Veo 8 s = tối đa **26 âm tiết** và tốt nhất **1 người nói** (tối đa 2 lượt). Câu dài → tách clip.
 - Văn nói miền Nam–Tây Nguyên tự nhiên: "con", "cô", "má", "nha", "hả", "lẹ", "nè". Số vẫn **viết bằng chữ**.
-- Bảng tính lời lỗ do nhân vật nói (Út Nhỏ, Chú Tư, Bà Năm tính giùm) + `chu_man_hinh` hiện số.
+- Bảng tính lời lỗ do nhân vật nói (Út Nhỏ, Chú Tư, Bà Tám tính giùm) + `chu_man_hinh` hiện số.
 - Không lời thoại trong 1 clip → Veo ghi "Nobody speaks." (clip đặc tả/không khí, dùng ~2,5 s).
 
 **Mẫu prompt thoại:**
