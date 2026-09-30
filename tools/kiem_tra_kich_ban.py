@@ -31,7 +31,7 @@ NHAN_VAT = {
     "Thang Lanh": "slicked hair, thin mustache",
     # Nhân vật mới — chủ kênh duyệt 30/09/2026
     "Chu Tu": "faded plaid shirt, checkered krama scarf",
-    "Ut Nho": "simple pastel T-shirt, jeans, hair in a ponytail",
+    "Ut Nho": "black square glasses, long black hair in a high ponytail",
     "Sau Tai": "orange high-visibility work shirt",
     "Ba Nam": "grey hair in a bun, light blue blouse",
 }
