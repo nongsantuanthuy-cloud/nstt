@@ -10,7 +10,7 @@ Repo này là **nguồn kiến thức DUY NHẤT** của dự án (chủ kênh c
 
 ## Quyết định đã chốt
 - Tên kênh: **Nông Sản Tuấn Thủy** (không viết "Tuấn Thúy").
-- Dàn nhân vật 9 người (5 cũ + Chú Tư, Út Nhỏ, Anh Sáu Tài, Bà Năm Cân) — docs/01.
+- Dàn nhân vật 9 người — docs/01. **Cô Hai đã đổi thành Chú Năm** (`Chu Nam`, ảnh chủ kênh, 30/09). Út Nhỏ, Chú Năm dùng ảnh chủ kênh gửi.
 - Repo GitHub là nguồn kiến thức chung duy nhất — docs/09.
 - **Nhân vật tự thoại, bỏ người kể UV07** (Tuấn Thủy nói thẳng vào máy ở đầu/cuối); cắt + phóng to trong clip;
   phụ đề karaoke — docs/03 mục 6, docs/08.

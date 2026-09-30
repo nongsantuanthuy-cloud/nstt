@@ -14,8 +14,8 @@ Trên Drive có file ghi "Nông Sản Tuấn **Thúy**" (bảng thu mua, gói c�
 ## 3. Nhân vật đề xuất thêm (mỗi người phục vụ 1 nhóm chủ đề mới)
 | Đề xuất | Tên Flow | Vai trò | Vì sao thêm |
 |---|---|---|---|
-| **Chú Tư Bền** (~60, nông dân nam, áo caro bạc màu, khăn rằn, nón tai bèo) | `Chu Tu` | Nhà vườn lão làng, hiền, nhiều kinh nghiệm — người "chốt lẽ phải" | Hiện chỉ có Cô Hai là nhà vườn → mọi chuyện đều xoay quanh 1 người, dễ nhàm; nhà vườn nam là nhóm khán giả lớn |
-| **Út Nhỏ** (~22, con gái Cô Hai, áo thun, điện thoại, làm Zalo/Facebook) | `Ut Nho` | Thế hệ trẻ bán hàng online, hay bị lừa chuyển khoản/ép giá qua mạng | Mở chủ đề số hóa, khán giả trẻ |
+| **Chú Tư Bền** (~60, nông dân nam, áo caro bạc màu, khăn rằn, nón tai bèo) | `Chu Tu` | Nhà vườn lão làng, hiền, nhiều kinh nghiệm — người "chốt lẽ phải" | Hiện chỉ có Chú Năm là nhà vườn → mọi chuyện đều xoay quanh 1 người, dễ nhàm; nhà vườn nam là nhóm khán giả lớn |
+| **Út Nhỏ** (~22, con gái Chú Năm, áo thun, điện thoại, làm Zalo/Facebook) | `Ut Nho` | Thế hệ trẻ bán hàng online, hay bị lừa chuyển khoản/ép giá qua mạng | Mở chủ đề số hóa, khán giả trẻ |
 | **Anh Sáu Tài** (~40, tài xế xe tải, áo bảo hộ cam, khăn quấn cổ) | `Sau Tai` | Tài xế chở hàng — nhân chứng trung lập | Góc nhìn thứ 3, khán giả tài xế |
 | **Bà Năm Cân** (~65, giữ cân của xã / cân đối chứng) | `Ba Nam` | "Trọng tài" trong các vụ tranh chấp cân | Tạo cảnh hóa giải công bằng, không để Tuấn Thủy tự phán xử |
 

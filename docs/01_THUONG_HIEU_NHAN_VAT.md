@@ -31,7 +31,7 @@ Nguồn: Drive `NSTT/docs/thông tin kênh nông sản tuấn thủy`, `thuong_h
 |---|---|
 | `Nguoi Ke` | in a warm, clear young female voice with a Southern Vietnamese accent |
 | `Em Tuan` | in a friendly young male voice with a Southern Vietnamese accent |
-| `Co Hai` | in a warm, slightly husky middle-aged female voice with a Southern Vietnamese accent |
+| `Chu Nam` | in a warm, slightly husky middle-aged male voice with a Southern Vietnamese accent |
 | `Bay Loi` | in a deep, gruff male voice with a Southern Vietnamese accent |
 | `Thang Lanh` | in a fast, smooth-talking male voice with a Southern Vietnamese accent |
 | `Chu Tu` | in a slow, calm elderly male voice with a Southern Vietnamese accent |
@@ -46,17 +46,17 @@ Tên Flow viết không dấu. Mỗi prompt phải gọi tên + chèn nguyên v�
 |---|---|---|---|
 | Tuấn Thủy (chủ kênh, ảnh thật) | `Nguoi Ke` | Người kể, xuất hiện câu mở, góc nhìn, mẹo, câu hỏi, kết | the young woman in the reference: white collared shirt, beige wide-leg trousers, black belt, hair in a low bun |
 | Em Tuấn (ảnh thật) | `Em Tuan` | Thương lái trẻ phe NSTT, làm ăn đàng hoàng; cảnh kiểm hàng, cảnh kết | the young man in the reference: short spiky black hair, black polo shirt, dark cargo pants |
-| Cô Hai | `Co Hai` | Chủ vườn chất phác, dễ tin người | Co Hai, a woman around 50, hair in a bun, dark brown ba ba shirt, conical hat on her back, hands on hips |
+| **Chú Năm** (thay Cô Hai từ 30/09, **ảnh thật chủ kênh** `thuong_hieu/nhan_vat/chu_nam_goc.webp`) | `Chu Nam` | Chủ vườn chất phác, hiền, dễ tin người; ba của Út Nhỏ | Chu Nam, the man in the reference: around 55, short messy grey-black hair, tanned weathered face, faded light grey striped long-sleeve work shirt, conical hat on his back |
 | Bảy Lợi | `Bay Loi` | Chủ kho cứng rắn, hay ép giá, bắt dạt | Bay Loi, a man around 55, plain camouflage bucket hat with no badge, dark denim shirt, thick silver chain, tattoos, arms crossed |
 | Thắng Lanh | `Thang Lanh` | Cò trung gian, nói ngọt, hứa giá cao rồi biến mất | Thang Lanh, a man around 35, slicked hair, thin mustache, tight black T-shirt, gold chain and gold watch, two phones, motorbike |
 | Chú Tư (mới) | `Chu Tu` | Nhà vườn nam lão làng, hàng xóm Cô Hai, hiền, "chốt lẽ phải" | Chu Tu, a man around 60, faded plaid shirt, checkered krama scarf around his neck, soft bucket hat, weathered kind face |
-| Út Nhỏ (mới, **ảnh thật chủ kênh cung cấp** `thuong_hieu/nhan_vat/ut_nho_goc.webp`) | `Ut Nho` | Con gái út Cô Hai, phụ vườn, bán hàng qua Zalo/Facebook | Ut Nho, the young woman in the reference: black square glasses, long black hair in a high ponytail with bangs, pink plaid long-sleeve shirt, black cargo pants, rubber boots, work gloves, conical hat on her back |
+| Út Nhỏ (mới, **ảnh thật chủ kênh cung cấp** `thuong_hieu/nhan_vat/ut_nho_goc.webp`) | `Ut Nho` | Con gái út Chú Năm, phụ vườn, bán hàng qua Zalo/Facebook | Ut Nho, the young woman in the reference: black square glasses, long black hair in a high ponytail with bangs, pink plaid long-sleeve shirt, black cargo pants, rubber boots, work gloves, conical hat on her back |
 | Anh Sáu Tài (mới) | `Sau Tai` | Tài xế xe tải chở sầu — nhân chứng trung lập | Sau Tai, a man around 40, truck driver, orange high-visibility work shirt, towel around his neck, cap |
 | Bà Năm Cân (mới) | `Ba Nam` | Giữ trạm cân đầu xã / cân đối chứng — "trọng tài" | Ba Nam, a woman around 65, grey hair in a bun, light blue blouse, reading glasses hanging on a cord |
 
 Út Nhỏ đã có ảnh (30/09). 3 nhân vật mới còn lại **chưa có ảnh tham chiếu trong Flow** → tạo theo `thuong_hieu/nhan_vat_moi.md` trước khi dựng clip có họ.
 
-**Không dùng:** `Chu Ba`, `Ong Sau Cu`, ảnh `bay_loi_goc_co_huy_hieu.png` (nón có huy hiệu — clip nào lòi huy hiệu phải tạo lại).
+**Không dùng:** `Co Hai` (đã đổi thành Chú Năm 30/09), `Chu Ba`, `Ong Sau Cu`, ảnh `bay_loi_goc_co_huy_hieu.png` (nón có huy hiệu — clip nào lòi huy hiệu phải tạo lại).
 
 ## 4. Lưu ý khi tạo clip
 - Luôn ghi `Setting: ...` (Veo hay chép nền ảnh tham chiếu).

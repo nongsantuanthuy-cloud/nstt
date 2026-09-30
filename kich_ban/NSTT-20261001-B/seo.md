@@ -4,7 +4,7 @@
 **Chữ ảnh bìa:** BỎ CỌC 20 TRIỆU?
 
 ## Tiêu đề
-- Facebook Reels: Giá sập 25 nghìn, cò định bỏ cọc — cách Cô Hai gỡ kèo 380 triệu
+- Facebook Reels: Giá sập 25 nghìn, cò định bỏ cọc — cách Chú Năm gỡ kèo 380 triệu
 - YouTube Shorts: Giá sầu riêng sập, thương lái bỏ cọc 20 triệu — nhà vườn gỡ kèo thế nào? | Nông Sản Tuấn Thủy
 - TikTok: Kèo 380 triệu, sáng ngày cắt nhận tin: anh bỏ cọc 😢
 

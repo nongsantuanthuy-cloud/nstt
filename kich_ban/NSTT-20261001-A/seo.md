@@ -9,7 +9,7 @@
 - TikTok: Bao phân 50 ký lên cân còn 47,5 😳 3 tấn sầu hụt 13,5 triệu
 
 ## Mô tả (dùng chung)
-Thương lái mang cân bàn tới tận vườn cho nhanh. Sọt nào cũng nặng tay mà số cứ nhẹ… Cô Hai không cãi, chỉ lặng lẽ vác ra một bao phân 50 ký.
+Thương lái mang cân bàn tới tận vườn cho nhanh. Sọt nào cũng nặng tay mà số cứ nhẹ… Chú Năm không cãi, chỉ lặng lẽ vác ra một bao phân 50 ký.
 
 💡 Mẹo: trước khi cân, đặt thử 1 vật biết trước ký (bao phân, can nước, quả cân chuẩn) và thử lại giữa chừng vài lần.
 

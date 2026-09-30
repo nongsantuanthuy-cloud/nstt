@@ -9,6 +9,7 @@ Trả lời trực tiếp trong chat hoặc sửa file này (ghi "TRẢ LỜI: .
 | 8 | 30/09 | Nhịp đăng: 2 video/ngày (11:30, 19:30) hay ít hơn? ~200 credit Flow/video | Lịch + ngân sách |
 | 14 | 30/09 | Bỏ người kể — nhưng Tuấn Thủy vẫn **xuất hiện nói thẳng vào máy** ở đầu (câu mở) và cuối (góc nhìn, mẹo, câu hỏi, 2 câu kết) như bản v3 đang làm, được không? Hay bỏ hẳn Tuấn Thủy khỏi video? | Tài liệu kênh yêu cầu Tuấn Thủy mở/kết; chủ kênh nói "không phải là người kể nữa" |
 | 15 | 30/09 | Nếu Veo đọc tiếng Việt không chuẩn: phương án dự phòng là lồng tiếng OmniVoice **riêng từng nhân vật** (cần 1 đoạn giọng mẫu ~10 s cho mỗi nhân vật) — đồng ý không? Có sẵn giọng mẫu nào? | Rủi ro lớn nhất của kiểu thoại |
+| 17 | 30/09 | **Trùng tên:** Chú Năm (chủ vườn) và Bà Năm Cân (giữ trạm cân) cùng gọi "Năm" — cùng xuất hiện trong video NSTT-20261001-A cảnh S11. Đề xuất đổi Bà Năm Cân → **Bà Tám Cân** (`Ba Tam`)? | Khán giả dễ nhầm hai nhân vật |
 | 10 | 30/09 | Tên series ("Sổ Tay Sầu Riêng Tuấn Thủy", đánh số tập) — dùng hay không? | Nhận diện |
 
 ## Đã trả lời

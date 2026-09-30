@@ -26,7 +26,7 @@ KET_2 = "Cảm ơn bà con đã tin tưởng và hẹn gặp lại trong những
 NHAN_VAT = {
     "Nguoi Ke": "white collared shirt, beige wide-leg trousers",
     "Em Tuan": "short spiky black hair, black polo shirt",
-    "Co Hai": "dark brown ba ba shirt",
+    "Chu Nam": "faded light grey striped long-sleeve work shirt",  # thay Cô Hai từ 30/09
     "Bay Loi": "plain camouflage bucket hat with no badge",
     "Thang Lanh": "slicked hair, thin mustache",
     # Nhân vật mới — chủ kênh duyệt 30/09/2026
@@ -138,7 +138,7 @@ def kiem_tra(data: dict):
     return loi_nang, canh_bao, tong
 
 
-TEN = {"Nguoi Ke": "Tuấn Thủy", "Em Tuan": "Em Tuấn", "Co Hai": "Cô Hai", "Bay Loi": "Bảy Lợi",
+TEN = {"Nguoi Ke": "Tuấn Thủy", "Em Tuan": "Em Tuấn", "Chu Nam": "Chú Năm", "Co Hai": "Cô Hai", "Bay Loi": "Bảy Lợi",
        "Thang Lanh": "Thắng Lanh", "Chu Tu": "Chú Tư", "Ut Nho": "Út Nhỏ", "Sau Tai": "Anh Sáu Tài", "Ba Nam": "Bà Năm"}
 
 
