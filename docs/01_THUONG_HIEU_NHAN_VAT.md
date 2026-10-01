@@ -14,7 +14,7 @@ Nguồn: Drive `NSTT/docs/thông tin kênh nông sản tuấn thủy`, `thuong_h
 - **Hình ảnh:** AI photorealistic, tông ấm vàng–nâu đất, sương gió; khung dọc 9:16; có nhãn "nội dung AI".
 
 ## 2. Nhận diện
-- Logo: `thuong_hieu/logo/logo_chinh_goc.webp` (Drive: `logo_nstt_*.png`, `anh_dai_dien_1024.jpg`).
+- Logo: `thuong_hieu/logo/logo_chinh_goc.webp` (gốc) + `thuong_hieu/logo/logo_nstt_400.png` (tròn, nền trong — dùng khi dựng video). Slogan trên logo: "Tinh hoa nông sản Việt".
 - Màu: **xanh #024815** + **vàng cơm sầu #F2CD41**. Không dùng tông nâu cho đồ họa.
 - Câu mở cố định: *"Chào bà con. Chuyện nghề sầu riêng hôm nay, Tuấn Thủy kể bà con nghe."*
 - Câu kết cố định:

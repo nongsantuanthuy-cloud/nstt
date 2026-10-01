@@ -261,7 +261,7 @@ def main():
     vao = ["-i", str(noi)]
     if a.logo and Path(a.logo).exists():
         vao += ["-i", a.logo]
-        loc = f"[1:v]scale=150:-1,format=rgba,colorchannelmixer=aa=0.9[lg];[0:v]{vf}[s];[s][lg]overlay=40:60[v]"
+        loc = f"[1:v]scale=190:-1,format=rgba[lg];[0:v]{vf}[s];[s][lg]overlay=36:48[v]"
     else:
         loc = f"[0:v]{vf}[v]"
     ra_dir = goc / "ban_dung"
