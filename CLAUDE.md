@@ -7,6 +7,7 @@ Repo này là **nguồn kiến thức DUY NHẤT** của dự án (chủ kênh c
 2. File mới nhất trong `nhat_ky/` (nhật ký phiên trước: làm gì, dở gì, việc tiếp theo).
 3. `CAU_HOI_CHO_CHU_KENH.md` — câu hỏi còn treo. Chưa có trả lời thì KHÔNG tự đoán.
 4. `docs/` — kiến thức gốc (luôn đúng hơn trí nhớ của model).
+5. Nếu chạy trên **PC chủ kênh**: đọc `BAN_GIAO_PC.md` (việc đang dở + lệnh làm tiếp).
 
 ## Quyết định đã chốt
 - Tên kênh: **Nông Sản Tuấn Thủy** (không viết "Tuấn Thúy").
