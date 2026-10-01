@@ -1,2 +1,21 @@
-S01: dùng 2.70–8.70s / 10.01s, góc toan→can@0.33→can@0.55, mốc chữ: uoc_tinh
-Tổng: 6.0s
+S01: dùng 2.70–8.70s / 10.01s, góc toan→can@0.33→can@0.55, mốc chữ: whisper
+S02: dùng 2.10–6.95s / 8.00s, góc toan→can, mốc chữ: whisper
+S03: dùng 0.95–7.38s / 8.00s, góc toan→can, mốc chữ: whisper
+S04: dùng 0.00–5.26s / 8.00s, góc toan→can@0.3→can@0.62, mốc chữ: whisper
+S05: dùng 0.09–5.42s / 8.00s, góc toan→can, mốc chữ: whisper
+S06: dùng 0.00–7.48s / 8.00s, góc toan→can@0.25→can@0.62, mốc chữ: whisper
+S07: dùng 0.00–8.00s / 8.00s, góc can→dac_ta, mốc chữ: whisper
+S08: dùng 1.65–8.00s / 8.00s, góc toan→can, mốc chữ: whisper
+S09: dùng 1.94–6.11s / 8.00s, góc dac_ta→can, mốc chữ: whisper
+S10: dùng 0.00–6.54s / 8.00s, góc toan→can@0.28, mốc chữ: whisper
+S11: dùng 0.00–7.40s / 8.00s, góc toan→can@0.3, mốc chữ: whisper
+S12: dùng 0.00–6.40s / 8.00s, góc can→can, mốc chữ: whisper
+S13: dùng 0.00–7.04s / 8.00s, góc toan→can@0.3, mốc chữ: whisper
+S14: dùng 0.21–7.04s / 8.00s, góc can→toan, mốc chữ: whisper
+S15: dùng 0.05–7.10s / 8.00s, góc can→toan, mốc chữ: whisper
+S16: dùng 1.39–7.70s / 8.00s, góc toan→can, mốc chữ: whisper
+S17: dùng 0.57–7.18s / 8.00s, góc can→toan, mốc chữ: whisper
+S18: dùng 0.00–4.62s / 8.00s, góc toan→can, mốc chữ: whisper
+S19: dùng 0.00–5.10s / 8.00s, góc can→toan, mốc chữ: whisper
+S20: dùng 0.17–7.50s / 8.00s, góc can→toan, mốc chữ: whisper
+Tổng: 124.6s

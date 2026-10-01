@@ -15,7 +15,8 @@ Mỗi cảnh trong canh.json có thể thêm:
   "cat": ["toan","can@0.33","dac_ta"]  chia đoạn dùng thành các góc (thêm @x để đặt tâm ngang riêng từng góc): toàn (khung 16:9 + nền mờ),
                           cận (cắt dọc 9:16), đặc tả (cắt dọc phóng 1,6 lần)
 Đầu ra: ban_dung/<ma>.mp4 — 1080×1920, 30 fps, H.264 yuv420p, AAC, −14 LUFS; phụ đề karaoke 2–3 chữ IN HOA,
-chữ đang nói tô vàng #F2CD41; chữ lớn `chu_man_hinh` nền xanh #024815; logo góc trên (nếu có).
+chữ đang nói tô vàng #F2CD41; logo góc trên (nếu có). Chữ lớn `chu_man_hinh` nền xanh #024815 chỉ hiện khi
+thêm --hien-chu-lon (chủ kênh 01/10/2026: mọi video bỏ chữ lớn).
 Bản cũ chuyển vào _tam/<ma>_vN.mp4.  --nhap: nhanh, chất lượng thấp để xem thử.
 """
 import argparse, json, re, shutil, subprocess, sys, tempfile
@@ -26,6 +27,11 @@ VANG, XANH = "F2CD41", "024815"   # màu thương hiệu (RGB)
 ZOOM_DAC_TA = 1.6
 DEM_TRUOC, DEM_SAU = 0.25, 0.6    # giây đệm quanh tiếng nói
 IM_LANG_MAC_DINH = 2.5
+# Vùng an toàn chung TikTok / Reels / Shorts (soát bằng tools/vung_an_toan.py): tránh 14% trên (270 px),
+# 35% dưới của Reels (từ y≈1250) và cột nút bên phải.
+LOGO_X, LOGO_Y, LOGO_RONG = 36, 290, 150
+PHU_DE_MARGIN_V = 675        # chân phụ đề ở y = 1245 — thấp nhất còn an toàn cho Reels (35% dưới); TikTok/Shorts cho phép thấp hơn
+CHU_MARGIN_V, CHU_MARGIN_L = 300, 210   # chữ lớn bắt đầu y=300, chừa chỗ logo bên trái
 
 
 def ffmpeg():
@@ -119,13 +125,13 @@ def ass_dau(font):
 ScriptType: v4.00+
 PlayResX: {W}
 PlayResY: {H}
-WrapStyle: 2
+WrapStyle: 0
 ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: PhuDe,{font},84,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,1,0,0,0,90,100,0,0,1,6,3,2,60,60,470,1
-Style: Chu,{font},76,{ass_mau(VANG)},{ass_mau(VANG)},{ass_mau(XANH)},{ass_mau(XANH)},1,0,0,0,95,100,0,0,3,18,0,8,70,70,330,1
+Style: PhuDe,{font},84,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,1,0,0,0,90,100,0,0,1,6,3,2,150,150,{PHU_DE_MARGIN_V},1
+Style: Chu,{font},64,{ass_mau(VANG)},{ass_mau(VANG)},{ass_mau(XANH)},{ass_mau(XANH)},1,0,0,0,95,100,0,0,3,16,0,8,{CHU_MARGIN_L},60,{CHU_MARGIN_V},1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -182,6 +188,9 @@ def main():
     ap.add_argument("--logo")
     ap.add_argument("--font", default="Arial")
     ap.add_argument("--nhap", action="store_true")
+    # Chủ kênh 01/10/2026: mọi video bỏ chữ lớn nền xanh (chu_man_hinh) — mặc định tắt, muốn hiện thì --hien-chu-lon
+    ap.add_argument("--hien-chu-lon", action="store_true", help="hiện chữ lớn chu_man_hinh (mặc định tắt)")
+    ap.add_argument("--bo-chu-lon", action="store_true", help="(giữ tương thích, nay là mặc định)")
     a = ap.parse_args()
 
     pj = Path(a.canh_json)
@@ -230,8 +239,9 @@ def main():
         dich = t_ra - u0
         su_kien += su_kien_phu_de([{**m, "start": m["start"] + dich, "end": m["end"] + dich}
                                    for m in moc if u0 - 0.1 <= m["start"] <= u1])
-        if c.get("chu_man_hinh"):
-            su_kien.append(f"Dialogue: 1,{ass_gio(t_ra + 0.2)},{ass_gio(t_ra + (u1 - u0))},Chu,,0,0,0,,{c['chu_man_hinh']}")
+        if c.get("chu_man_hinh") and a.hien_chu_lon:
+            chu = c["chu_man_hinh"].replace(" | ", r"\N")   # " | " = xuống dòng có chủ đích
+            su_kien.append(f"Dialogue: 1,{ass_gio(t_ra + 0.2)},{ass_gio(t_ra + (u1 - u0))},Chu,,0,0,0,,{chu}")
         # cắt góc
         cat = c.get("cat") or ["toan"]
         buoc = (u1 - u0) / len(cat)
@@ -261,7 +271,7 @@ def main():
     vao = ["-i", str(noi)]
     if a.logo and Path(a.logo).exists():
         vao += ["-i", a.logo]
-        loc = f"[1:v]scale=190:-1,format=rgba[lg];[0:v]{vf}[s];[s][lg]overlay=36:48[v]"
+        loc = f"[1:v]scale={LOGO_RONG}:-1,format=rgba[lg];[0:v]{vf}[s];[s][lg]overlay={LOGO_X}:{LOGO_Y}[v]"
     else:
         loc = f"[0:v]{vf}[v]"
     ra_dir = goc / "ban_dung"

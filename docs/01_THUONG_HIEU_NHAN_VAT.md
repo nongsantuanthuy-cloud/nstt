@@ -16,9 +16,11 @@ Nguồn: Drive `NSTT/docs/thông tin kênh nông sản tuấn thủy`, `thuong_h
 ## 2. Nhận diện
 - Logo: `thuong_hieu/logo/logo_chinh_goc.webp` (gốc) + `thuong_hieu/logo/logo_nstt_400.png` (tròn, nền trong — dùng khi dựng video). Slogan trên logo: "Tinh hoa nông sản Việt".
 - Màu: **xanh #024815** + **vàng cơm sầu #F2CD41**. Không dùng tông nâu cho đồ họa.
-- Câu mở cố định: *"Chào bà con. Chuyện nghề sầu riêng hôm nay, Tuấn Thủy kể bà con nghe."*
+- **Không dùng chữ lớn nền xanh trên video** (chủ kênh chốt 01/10/2026) — video chỉ có logo + phụ đề karaoke.
+  `chu_man_hinh` trong canh.json vẫn giữ làm ghi chú/ảnh bìa; `dung_video_v3.py` mặc định không hiện.
+- Câu mở cố định: *"Chào cả nhà, chuyện nghề sầu riêng hôm nay, Tuấn Thủy lại kể mọi người nghe."*
 - Câu kết cố định:
-  1. *"Có hàng cần bán, bà con cứ gọi Tuấn Thủy. Mình cùng trao đổi rõ ràng, thuận mua vừa bán, ai cũng vui."*
+  1. *"Có hàng cần bán, bà con cứ tham khảo Nông Sản Tuấn Thủy xem sao nha. Mình cùng trao đổi rõ ràng, thuận mua vừa bán, ai cũng vui."*
   2. *"Cảm ơn bà con đã tin tưởng và hẹn gặp lại trong những vườn sầu riêng."*
 
 ## 3. Dàn nhân vật — TỪ 30/09/2026 NHÂN VẬT TỰ THOẠI (chủ kênh chốt)

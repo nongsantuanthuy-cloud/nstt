@@ -1,0 +1,145 @@
+{
+ "can_tao_lai": [],
+ "chi_tiet": {
+  "S01": {
+   "kich_ban": "Ba ơi, chú Thắng nhắn: giá sập rồi, chú bỏ cọc, không lấy hàng nữa! Hả?",
+   "nghe_duoc": "Bà ơi, chú Thắng nhắn, giá sập rồi, chú bỏ cọc, không lấy hàng nữa! Hả?",
+   "diem_khop": 0.938,
+   "ngon_ngu": "vi",
+   "dat": true
+  },
+  "S02": {
+   "kich_ban": "Chào cả nhà, chuyện nghề sầu riêng hôm nay, Tuấn Thủy lại kể mọi người nghe.",
+   "nghe_duoc": "Chào cả nhà, chuyện nghề sầu riêng hôm nay, Tuấn Thủy lại kể mọi người nghe.",
+   "diem_khop": 1.0,
+   "ngon_ngu": "vi",
+   "dat": true
+  },
+  "S03": {
+   "kich_ban": "Bốn tấn, sáu mươi lăm nghìn một ký. Giá này cả xã không ai trả bằng đâu chú.",
+   "nghe_duoc": "Bốn tấn, sáu mươi lăm nghìn một ký. Giá này cả xã không ai trả bằng đâu chú.",
+   "diem_khop": 1.0,
+   "ngon_ngu": "vi",
+   "dat": true
+  },
+  "S04": {
+   "kich_ban": "Con cọc trước hai chục triệu, chú ghi giấy giùm con. Ừ, hẹn ngày cắt nha.",
+   "nghe_duoc": "Con cọc trước hai chục triệu. Chú ghi giấy giùm con. Ừ, hẹn ngày cắt nha.",
+   "diem_khop": 1.0,
+   "ngon_ngu": "vi",
+   "dat": true
+  },
+  "S05": {
+   "kich_ban": "Hàng về ngập kho rồi. Mai bốn lăm nghìn thôi, ai bán thì bán.",
+   "nghe_duoc": "Hàng về ngập kho rồi. Mai bốn lăm nghìn thôi, ai bán thì bán.",
+   "diem_khop": 1.0,
+   "ngon_ngu": "vi",
+   "dat": true
+  },
+  "S06": {
+   "kich_ban": "Anh Bảy, em chốt với nhà vườn sáu lăm lận. Kho nào giờ cũng bốn lăm. Chú tự lo.",
+   "nghe_duoc": "Anh Bảy, em chốt với nhà vườn sáu lăm lận. Kho nào giờ cũng bốn lăm. Chú tự lo.",
+   "diem_khop": 1.0,
+   "ngon_ngu": "vi",
+   "dat": true
+  },
+  "S07": {
+   "kich_ban": "Giữ kèo là lỗ tám chục triệu. Bỏ cọc thì mất hai chục. Thôi, bỏ cọc.",
+   "nghe_duoc": "Giữ kèo là lỗ tám chục triệu. Bỏ cọc thì mất hai chục. Thôi, bỏ cọc.",
+   "diem_khop": 1.0,
+   "ngon_ngu": "vi",
+   "dat": true
+  },
+  "S08": {
+   "kich_ban": "Trái tới độ hết rồi. Để vài bữa là rụng, là nứt, bán cho ai?",
+   "nghe_duoc": "Trái tới độ hết rồi. Để vài bữa là rụng, là nứt, bán cho ai?",
+   "diem_khop": 1.0,
+   "ngon_ngu": "vi",
+   "dat": true
+  },
+  "S09": {
+   "kich_ban": "Con đăng lên mạng rồi ba. Ai cũng chỉ trả bốn chục nghìn.",
+   "nghe_duoc": "Con đăng lên mạng rồi ba. Ai cũng chỉ trả bốn chục nghìn.",
+   "diem_khop": 1.0,
+   "ngon_ngu": "vi",
+   "dat": true
+  },
+  "S10": {
+   "kich_ban": "Bốn tấn được một trăm sáu chục, cộng tiền cọc là một trăm tám chục. Hụt tám chục triệu so với hợp đồng.",
+   "nghe_duoc": "Bốn tấn được một trăm sáu chục, cộng tiền cọc là một trăm tám chục, hụt ám chục triệu so với hợp đồng.",
+   "diem_khop": 0.957,
+   "ngon_ngu": "vi",
+   "dat": true
+  },
+  "S11": {
+   "kich_ban": "Ngồi đi con. Giá sập đâu phải lỗi riêng ai. Mình tính cách nào cho cả hai cùng đỡ.",
+   "nghe_duoc": "Ngồi đi con. Giá sập đâu phải lỗi riêng ai. Mình tính cách nào cho cả hai cùng đỡ.",
+   "diem_khop": 1.0,
+   "ngon_ngu": "vi",
+   "dat": true
+  },
+  "S12": {
+   "kich_ban": "Con vẫn lấy hàng, giá năm chục nghìn, tiền cọc trừ vào tiền hàng. Được không?",
+   "nghe_duoc": "Con vẫn lấy hàng, giá năm chục nghìn, tiền cọc trừ vào tiền hàng. Được không? Ừm.",
+   "diem_khop": 0.97,
+   "ngon_ngu": "vi",
+   "dat": true
+  },
+  "S13": {
+   "kich_ban": "Con vẫn lỗ hai chục, bằng tiền cọc, mà giữ được chữ tín với chú. Con chịu!",
+   "nghe_duoc": "Con vẫn lỗ hai chục, bằng tiền cọc, mà giữ được chữ tín với chú. Con chịu!",
+   "diem_khop": 1.0,
+   "ngon_ngu": "vi",
+   "dat": true
+  },
+  "S14": {
+   "kich_ban": "Lúc giá sập, người mua người bán đều khổ. Chia nhau cái khó thì còn gặp nhau mùa sau.",
+   "nghe_duoc": "Lúc giá sập, người mua người bán đều khổ. Chia nhau cái khó, thì còn gặp nhau mùa sau.",
+   "diem_khop": 1.0,
+   "ngon_ngu": "vi",
+   "dat": true
+  },
+  "S15": {
+   "kich_ban": "Mẹo nhỏ: giấy cọc nên ghi rõ, giá lên xuống quá mười nghìn thì hai bên ngồi lại.",
+   "nghe_duoc": "Mẹo nhỏ, giấy cọc nên ghi rõ, giá lên xuống quá mười nghìn, thì hai bên ngồi lại.",
+   "diem_khop": 1.0,
+   "ngon_ngu": "vi",
+   "dat": true
+  },
+  "S16": {
+   "kich_ban": "Và đừng chốt kèo quá xa ngày cắt. Chốt càng gần, giá càng sát, càng ít rủi ro.",
+   "nghe_duoc": "và đừng chốt kèo quá xa ngày cắt. Chốt càng gần, giả cán xác, càng ít ruổi ro.",
+   "diem_khop": 0.778,
+   "ngon_ngu": "vi",
+   "dat": true
+  },
+  "S17": {
+   "kich_ban": "Theo bà con, giá sập mà bỏ cọc là quyền người mua, hay phải giữ hợp đồng tới cùng?",
+   "nghe_duoc": "Theo bà con, giá sập mà bỏ cọc là quyền người mua, hay phải giữ hợp đồng tới cùng?",
+   "diem_khop": 1.0,
+   "ngon_ngu": "vi",
+   "dat": true
+  },
+  "S18": {
+   "kich_ban": "Có hàng cần bán, bà con cứ tham khảo Nông Sản Tuấn Thủy xem sao nha.",
+   "nghe_duoc": "Có hàng cần bán, bà con cứ tham khảo Nông Sản Tuấn Thủy xem sao nha.",
+   "diem_khop": 1.0,
+   "ngon_ngu": "vi",
+   "dat": true
+  },
+  "S19": {
+   "kich_ban": "Mình cùng trao đổi rõ ràng, thuận mua vừa bán, ai cũng vui.",
+   "nghe_duoc": "Mình cùng trao đổi rõ ràng, thuận mua vừa bán, ai cũng vui.",
+   "diem_khop": 1.0,
+   "ngon_ngu": "vi",
+   "dat": true
+  },
+  "S20": {
+   "kich_ban": "Cảm ơn bà con đã tin tưởng và hẹn gặp lại trong những vườn sầu riêng.",
+   "nghe_duoc": "Cảm ơn bà con đã tin tưởng và hẹn gặp lại trong những vườn sầu riêng.",
+   "diem_khop": 1.0,
+   "ngon_ngu": "vi",
+   "dat": true
+  }
+ }
+}

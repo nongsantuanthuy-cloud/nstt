@@ -1,0 +1,18 @@
+TẠO LẠI 2 CẢNH TRÊN GOOGLE FLOW — NSTT-20261001-B
+Dự án Flow: NSTT-20260929-MAU
+Cài đặt: Video · 16:9 · x1 · Veo 3.1 - Lite (10 tín dụng). Nếu thấy "Omni 1.1 Flash" hoặc 12 tín dụng thì đổi lại Veo 3.1 - Lite.
+
+========== S11 ==========
+Nhân vật (bấm dấu + để thêm): Chu Nam, Thang Lanh
+Prompt (chép nguyên văn):
+
+Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: under durian trees in an orchard, two low red plastic stools and a small tea table. Chu Nam, the man in the reference: around 55, short messy grey-black hair, tanned weathered face, faded light grey striped long-sleeve work shirt, conical hat on his back, pours tea and pushes the cup toward Thang Lanh, a man around 35, slicked hair, thin mustache, tight black T-shirt, gold chain and gold watch, who sits down awkwardly, eyes lowered. Chu Nam says in a warm, slightly husky middle-aged male voice with a Southern Vietnamese accent: "Ngồi đi con. Giá sập đâu phải lỗi riêng ai. Mình tính cách nào cho cả hai cùng đỡ." Sound: tea pouring, cup on wood, cicadas. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.
+
+========== S16 ==========
+Nhân vật: Em Tuan
+Prompt (chép nguyên văn):
+
+Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard, ripe durians hanging on branches. Em Tuan, the young man in the reference: short spiky black hair, black polo shirt, dark cargo pants, crouches beside a freshly cut durian, taps it, then looks up and talks to the camera. Em Tuan says in a friendly young male voice with a Southern Vietnamese accent: "Và đừng chốt kèo quá xa ngày cắt. Chốt càng gần, giá càng sát, càng ít rủi ro." Sound: soft knocking on the husk, leaves rustling. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.
+
+========== SAU KHI TẠO XONG ==========
+Mở từng clip → nút tải xuống → 720p. Tải xong nhắn Claude "đã tải S11 S16".

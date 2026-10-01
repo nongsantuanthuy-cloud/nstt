@@ -19,8 +19,8 @@ IM_LANG = 2.5     # v3: clip không thoại dùng ~2,5 s
 MAX_AM_TIET_CLIP = 26   # clip Veo 8 s
 TONG_MIN, TONG_MAX, TONG_CUNG = 100, 135, 178
 
-CAU_MO = "Chào bà con. Chuyện nghề sầu riêng hôm nay, Tuấn Thủy kể bà con nghe."
-KET_1 = "Có hàng cần bán, bà con cứ gọi Tuấn Thủy. Mình cùng trao đổi rõ ràng, thuận mua vừa bán, ai cũng vui."
+CAU_MO = "Chào cả nhà, chuyện nghề sầu riêng hôm nay, Tuấn Thủy lại kể mọi người nghe."
+KET_1 = "Có hàng cần bán, bà con cứ tham khảo Nông Sản Tuấn Thủy xem sao nha. Mình cùng trao đổi rõ ràng, thuận mua vừa bán, ai cũng vui."
 KET_2 = "Cảm ơn bà con đã tin tưởng và hẹn gặp lại trong những vườn sầu riêng."
 
 NHAN_VAT = {
@@ -127,7 +127,9 @@ def kiem_tra(data: dict):
                 loi_nang.append(f"{so}: prompt chứa nhân vật cấm '{nv}'")
         if "Setting:" not in prompt:
             loi_nang.append(f"{so}: prompt thiếu 'Setting:'")
-    theo_phan = {c.get("phan"): loi_canh(c) for c in canh}
+    theo_phan = {}  # câu cố định dài có thể tách nhiều cảnh liên tiếp cùng phần → nối lại
+    for c in canh:
+        theo_phan[c.get("phan")] = " ".join(x for x in (theo_phan.get(c.get("phan")), loi_canh(c)) if x)
     for phan, mau in (("CAU_MO", CAU_MO), ("KET_1", KET_1), ("KET_2", KET_2)):
         if theo_phan.get(phan) != mau:
             loi_nang.append(f"{phan}: phải đúng câu cố định")

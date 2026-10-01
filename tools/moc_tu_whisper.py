@@ -22,6 +22,19 @@ def tach(cau: str):
     return re.findall(r"[^\W\d_]+[^\s]*", cau)
 
 
+def doc_am_thanh(clip: Path):
+    """Giải mã tiếng clip → mảng float32 16 kHz mono bằng ffmpeg (tránh lỗi PyAV/faster-whisper lệch phiên bản)."""
+    import shutil, subprocess
+    import numpy as np
+    ff = shutil.which("ffmpeg")
+    if not ff:
+        import imageio_ffmpeg
+        ff = imageio_ffmpeg.get_ffmpeg_exe()
+    raw = subprocess.run([ff, "-nostdin", "-loglevel", "error", "-i", str(clip), "-f", "s16le", "-ac", "1",
+                          "-ar", "16000", "-"], capture_output=True, check=True).stdout
+    return np.frombuffer(raw, np.int16).astype(np.float32) / 32768.0
+
+
 def gan_moc(tu_kb, tu_wh):
     """Ghép chữ kịch bản với chữ Whisper (có thời gian); chữ không khớp thì nội suy."""
     a = [chuan(w) for w in tu_kb]
@@ -75,14 +88,22 @@ def main():
         if not thoai or not clip.exists():
             continue
         cau_kb = " ".join(t["cau"] for t in thoai)
-        segs, info = model.transcribe(str(clip), language="vi", word_timestamps=True, vad_filter=True,
+        am = doc_am_thanh(clip)
+        segs, info = model.transcribe(am, language="vi", word_timestamps=True, vad_filter=True,
                                       initial_prompt=cau_kb)
         tu_wh = [{"w": w.word.strip(), "start": w.start, "end": w.end} for s in segs for w in (s.words or [])]
+        khop = lambda ds: difflib.SequenceMatcher(None, [chuan(w) for w in tach(cau_kb)],
+                                                 [chuan(w["w"]) for w in ds], autojunk=False).ratio()
+        diem = khop(tu_wh)
+        if diem < a.nguong:
+            # VAD có thể cắt mất câu nói nhỏ/sát tiếng động (S16 ngày 01/10) → nghe lại không lọc khoảng lặng
+            segs2, _ = model.transcribe(am, language="vi", word_timestamps=True, vad_filter=False)
+            tu_wh2 = [{"w": w.word.strip(), "start": w.start, "end": w.end} for s in segs2 for w in (s.words or [])]
+            if khop(tu_wh2) > diem:
+                tu_wh, diem = tu_wh2, khop(tu_wh2)
         nghe = " ".join(w["w"] for w in tu_wh)
         # kiểm tra ngôn ngữ riêng (không ép vi) để bắt tiếng nước ngoài
-        _, info2 = model.transcribe(str(clip), without_timestamps=True)
-        diem = difflib.SequenceMatcher(None, [chuan(w) for w in tach(cau_kb)],
-                                       [chuan(w["w"]) for w in tu_wh], autojunk=False).ratio()
+        _, info2 = model.transcribe(am, without_timestamps=True)
         dat = diem >= a.nguong and info2.language == "vi"
         ket_qua[c["so"]] = {"kich_ban": cau_kb, "nghe_duoc": nghe, "diem_khop": round(diem, 3),
                             "ngon_ngu": info2.language, "dat": dat}

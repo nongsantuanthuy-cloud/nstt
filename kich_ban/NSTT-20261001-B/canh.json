@@ -3,16 +3,16 @@
   "phien_ban": 3,
   "kieu": "thoai",
   "chu_de": "Giá sập, cò định bỏ cọc — Chú Năm gỡ kèo, hai bên cùng giữ chữ tín",
-  "tieu_de_tam": "Giá sập 25 nghìn, cò định bỏ cọc — cách Chú Năm gỡ kèo 380 triệu",
-  "ghi_chu": "v3.1 30/09: Cô Hai đổi thành Chú Năm (ảnh chủ kênh). v3 30/09: nhân vật tự thoại. Thắng Lanh không phải kẻ xấu — giá sập toàn vùng. Hóa giải giá 75k, cọc trừ vào tiền hàng.",
+  "tieu_de_tam": "Giá sập 20 nghìn, cò định bỏ cọc — cách Chú Năm gỡ kèo 260 triệu",
+  "ghi_chu": "v3.3 01/10: câu kết KET_1 dài 29 âm tiết → tách S18 + S19 (chủ kênh chọn), cảnh chào cuối thành S20. v3.2 01/10: chủ kênh sửa giá chốt kèo còn 65k (kho 45k, chợ 40k, hòa giải 50k); S06 Thắng Lanh xưng 'em' với anh Bảy. v3.1 30/09: Cô Hai đổi thành Chú Năm (ảnh chủ kênh). v3 30/09: nhân vật tự thoại. Thắng Lanh không phải kẻ xấu — giá sập toàn vùng. Hóa giải giá 50k, cọc trừ vào tiền hàng.",
   "bang_tinh": {
-    "keo_cu": "4.000 kg x 95.000 = 380.000.000 đ",
+    "keo_cu": "4.000 kg x 65.000 = 260.000.000 đ",
     "coc": "20.000.000 đ",
-    "gia_kho_ngay_cat": "4.000 x 70.000 = 280.000.000 đ",
-    "thang_lanh_giu_keo_lo": "380 - 280 = 100.000.000 đ",
+    "gia_kho_ngay_cat": "4.000 x 45.000 = 180.000.000 đ",
+    "thang_lanh_giu_keo_lo": "260 - 180 = 80.000.000 đ",
     "thang_lanh_bo_coc_mat": "20.000.000 đ",
-    "co_hai_ban_le": "4.000 x 65.000 = 260.000.000 + coc 20.000.000 = 280.000.000 đ",
-    "hoa_giai": "4.000 x 75.000 = 300.000.000 đ; Thắng Lanh lỗ 300 - 280 = 20 (bằng cọc); Chú Năm hơn 300 - 280 = 20"
+    "chu_nam_ban_le": "4.000 x 40.000 = 160.000.000 + coc 20.000.000 = 180.000.000 đ",
+    "hoa_giai": "4.000 x 50.000 = 200.000.000 đ; Thắng Lanh lỗ 200 - 180 = 20 (bằng cọc); Chú Năm hơn 200 - 180 = 20"
   },
   "canh": [
     {
@@ -55,14 +55,18 @@
       "thoai": [
         {
           "nv": "Nguoi Ke",
-          "cau": "Chào bà con. Chuyện nghề sầu riêng hôm nay, Tuấn Thủy kể bà con nghe."
+          "cau": "Chào cả nhà, chuyện nghề sầu riêng hôm nay, Tuấn Thủy lại kể mọi người nghe."
         }
       ],
       "cat": [
         "toan",
         "can"
       ],
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard path in the morning, durian trees with hanging fruit on both sides, dappled sunlight. Nguoi Ke, the young woman in the reference: white collared shirt, beige wide-leg trousers, black belt, hair in a low bun, walks toward the camera, stops, smiles warmly and talks directly to the camera like a friendly vlogger. Nguoi Ke says in a warm, clear young female voice with a Southern Vietnamese accent: \"Chào bà con. Chuyện nghề sầu riêng hôm nay, Tuấn Thủy kể bà con nghe.\" Sound: footsteps on dry leaves, birdsong. All speech is in Vietnamese only. No music, no subtitles, no on-screen text."
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard path in the morning, durian trees with hanging fruit on both sides, dappled sunlight. Nguoi Ke, the young woman in the reference: white collared shirt, beige wide-leg trousers, black belt, hair in a low bun, walks toward the camera, stops, smiles warmly and talks directly to the camera like a friendly vlogger. Nguoi Ke says in a warm, clear young female voice with a Southern Vietnamese accent: \"Chào cả nhà, chuyện nghề sầu riêng hôm nay, Tuấn Thủy lại kể mọi người nghe.\" Sound: footsteps on dry leaves, birdsong. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.",
+      "dung": [
+        2.1,
+        6.95
+      ]
     },
     {
       "so": "S03",
@@ -75,7 +79,7 @@
       "thoai": [
         {
           "nv": "Thang Lanh",
-          "cau": "Bốn tấn, chín mươi lăm nghìn một ký. Giá này cả xã không ai trả bằng đâu chú."
+          "cau": "Bốn tấn, sáu mươi lăm nghìn một ký. Giá này cả xã không ai trả bằng đâu chú."
         }
       ],
       "cat": [
@@ -83,7 +87,11 @@
         "can"
       ],
       "chu_man_hinh": "NỬA THÁNG TRƯỚC",
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: under durian trees in an orchard, bright afternoon. Thang Lanh, a man around 35, slicked hair, thin mustache, tight black T-shirt, gold chain and gold watch, walks between the trees with Chu Nam, the man in the reference: around 55, short messy grey-black hair, tanned weathered face, faded light grey striped long-sleeve work shirt, conical hat on his back, pointing up at the durians with big gestures. Thang Lanh says in a fast, smooth-talking male voice with a Southern Vietnamese accent: \"Bốn tấn, chín mươi lăm nghìn một ký. Giá này cả xã không ai trả bằng đâu chú.\" Sound: cicadas, footsteps on dry leaves. All speech is in Vietnamese only. No music, no subtitles, no on-screen text."
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: under durian trees in an orchard, bright afternoon. Thang Lanh, a man around 35, slicked hair, thin mustache, tight black T-shirt, gold chain and gold watch, walks between the trees with Chu Nam, the man in the reference: around 55, short messy grey-black hair, tanned weathered face, faded light grey striped long-sleeve work shirt, conical hat on his back, pointing up at the durians with big gestures. Thang Lanh says in a fast, smooth-talking male voice with a Southern Vietnamese accent: \"Bốn tấn, sáu mươi lăm nghìn một ký. Giá này cả xã không ai trả bằng đâu chú.\" Sound: cicadas, footsteps on dry leaves. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.",
+      "dung": [
+        0.95,
+        7.38
+      ]
     },
     {
       "so": "S04",
@@ -105,9 +113,14 @@
       ],
       "cat": [
         "toan",
-        "dac_ta"
+        "can@0.3",
+        "can@0.62"
       ],
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a small wooden table on the porch of a farmhouse next to a durian orchard. Thang Lanh, a man around 35, slicked hair, thin mustache, tight black T-shirt, gold chain and gold watch, counts a stack of cash onto the table while Chu Nam, the man in the reference: around 55, short messy grey-black hair, tanned weathered face, faded light grey striped long-sleeve work shirt, conical hat on his back writes on a sheet of paper. Paper text not readable. Thang Lanh says in a fast, smooth-talking male voice with a Southern Vietnamese accent: \"Con cọc trước hai chục triệu, chú ghi giấy giùm con.\" Then Chu Nam says in a warm, slightly husky middle-aged male voice with a Southern Vietnamese accent: \"Ừ, hẹn ngày cắt nha.\" Sound: paper money rustling, pen scratching, a rooster in the distance. All speech is in Vietnamese only. No music, no subtitles, no on-screen text."
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a small wooden table on the porch of a farmhouse next to a durian orchard. Thang Lanh, a man around 35, slicked hair, thin mustache, tight black T-shirt, gold chain and gold watch, counts a stack of cash onto the table while Chu Nam, the man in the reference: around 55, short messy grey-black hair, tanned weathered face, faded light grey striped long-sleeve work shirt, conical hat on his back writes on a sheet of paper. Paper text not readable. Thang Lanh says in a fast, smooth-talking male voice with a Southern Vietnamese accent: \"Con cọc trước hai chục triệu, chú ghi giấy giùm con.\" Then Chu Nam says in a warm, slightly husky middle-aged male voice with a Southern Vietnamese accent: \"Ừ, hẹn ngày cắt nha.\" Sound: paper money rustling, pen scratching, a rooster in the distance. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.",
+      "dung": [
+        0.0,
+        5.26
+      ]
     },
     {
       "so": "S05",
@@ -119,14 +132,18 @@
       "thoai": [
         {
           "nv": "Bay Loi",
-          "cau": "Hàng về ngập kho rồi. Mai bảy chục nghìn thôi, ai bán thì bán."
+          "cau": "Hàng về ngập kho rồi. Mai bốn lăm nghìn thôi, ai bán thì bán."
         }
       ],
       "cat": [
         "toan",
         "can"
       ],
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: an overcrowded durian warehouse yard, a long queue of small trucks loaded with durians waiting at the gate. Bay Loi, a man around 55, plain camouflage bucket hat with no badge, dark denim shirt, thick silver chain, tattoos on his arms, stands at the gate holding a phone to his ear, waving the trucks to wait. Phone screen not visible. Bay Loi says in a deep, gruff male voice with a Southern Vietnamese accent: \"Hàng về ngập kho rồi. Mai bảy chục nghìn thôi, ai bán thì bán.\" Sound: many engines idling, busy warehouse ambience. All speech is in Vietnamese only. No music, no subtitles, no on-screen text."
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: an overcrowded durian warehouse yard, a long queue of small trucks loaded with durians waiting at the gate. Bay Loi, a man around 55, plain camouflage bucket hat with no badge, dark denim shirt, thick silver chain, tattoos on his arms, stands at the gate holding a phone to his ear, waving the trucks to wait. Phone screen not visible. Bay Loi says in a deep, gruff male voice with a Southern Vietnamese accent: \"Hàng về ngập kho rồi. Mai bốn lăm nghìn thôi, ai bán thì bán.\" Sound: many engines idling, busy warehouse ambience. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.",
+      "dung": [
+        0.09,
+        5.42
+      ]
     },
     {
       "so": "S06",
@@ -139,19 +156,23 @@
       "thoai": [
         {
           "nv": "Thang Lanh",
-          "cau": "Anh Bảy, con chốt với nhà vườn chín lăm lận."
+          "cau": "Anh Bảy, em chốt với nhà vườn sáu lăm lận."
         },
         {
           "nv": "Bay Loi",
-          "cau": "Kho nào giờ cũng bảy chục. Chú tự lo."
+          "cau": "Kho nào giờ cũng bốn lăm. Chú tự lo."
         }
       ],
       "cat": [
         "toan",
-        "can",
-        "can"
+        "can@0.25",
+        "can@0.62"
       ],
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: inside an active durian warehouse, a large platform scale stacked with baskets, workers in the background. Thang Lanh, a man around 35, slicked hair, thin mustache, tight black T-shirt, gold chain and gold watch, pleads with Bay Loi, a man around 55, plain camouflage bucket hat with no badge, dark denim shirt, thick silver chain, tattoos on his arms, who crosses his arms and shakes his head firmly. Thang Lanh says in a fast, smooth-talking male voice with a Southern Vietnamese accent: \"Anh Bảy, con chốt với nhà vườn chín lăm lận.\" Then Bay Loi says in a deep, gruff male voice with a Southern Vietnamese accent: \"Kho nào giờ cũng bảy chục. Chú tự lo.\" Sound: baskets thudding, warehouse ambience. All speech is in Vietnamese only. No music, no subtitles, no on-screen text."
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: inside an active durian warehouse, a large platform scale stacked with baskets, workers in the background. Thang Lanh, a man around 35, slicked hair, thin mustache, tight black T-shirt, gold chain and gold watch, pleads with Bay Loi, a man around 55, plain camouflage bucket hat with no badge, dark denim shirt, thick silver chain, tattoos on his arms, who crosses his arms and shakes his head firmly. Thang Lanh says in a fast, smooth-talking male voice with a Southern Vietnamese accent: \"Anh Bảy, em chốt với nhà vườn sáu lăm lận.\" Then Bay Loi says in a deep, gruff male voice with a Southern Vietnamese accent: \"Kho nào giờ cũng bốn lăm. Chú tự lo.\" Sound: baskets thudding, warehouse ambience. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.",
+      "dung": [
+        0.0,
+        7.48
+      ]
     },
     {
       "so": "S07",
@@ -163,15 +184,19 @@
       "thoai": [
         {
           "nv": "Thang Lanh",
-          "cau": "Giữ kèo là lỗ một trăm triệu. Bỏ cọc thì mất hai chục. Thôi, bỏ cọc."
+          "cau": "Giữ kèo là lỗ tám chục triệu. Bỏ cọc thì mất hai chục. Thôi, bỏ cọc."
         }
       ],
       "cat": [
         "can",
         "dac_ta"
       ],
-      "chu_man_hinh": "GIỮ KÈO −100TR | BỎ CỌC −20TR",
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: the side of a country road next to a durian orchard, a parked motorbike. Thang Lanh, a man around 35, slicked hair, thin mustache, tight black T-shirt, gold chain and gold watch, sits on a low red plastic stool beside his motorbike, rubs his forehead and talks to himself, then types a message. Phone screen not visible. Thang Lanh says in a fast, smooth-talking male voice with a Southern Vietnamese accent: \"Giữ kèo là lỗ một trăm triệu. Bỏ cọc thì mất hai chục. Thôi, bỏ cọc.\" Sound: phone tapping, passing motorbike in the distance. All speech is in Vietnamese only. No music, no subtitles, no on-screen text."
+      "chu_man_hinh": "GIỮ KÈO −80TR | BỎ CỌC −20TR",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: the side of a country road next to a durian orchard, a parked motorbike. Thang Lanh, a man around 35, slicked hair, thin mustache, tight black T-shirt, gold chain and gold watch, sits on a low red plastic stool beside his motorbike, rubs his forehead and talks to himself, then types a message. Phone screen not visible. Thang Lanh says in a fast, smooth-talking male voice with a Southern Vietnamese accent: \"Giữ kèo là lỗ tám chục triệu. Bỏ cọc thì mất hai chục. Thôi, bỏ cọc.\" Sound: phone tapping, passing motorbike in the distance. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.",
+      "dung": [
+        0.0,
+        8.0
+      ]
     },
     {
       "so": "S08",
@@ -191,7 +216,11 @@
         "toan",
         "can"
       ],
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard, very large ripe durians hanging low, one already fallen on the red soil. A ripe durian drops and thuds onto the ground next to Chu Nam, the man in the reference: around 55, short messy grey-black hair, tanned weathered face, faded light grey striped long-sleeve work shirt, conical hat on his back, who picks it up and looks up anxiously while Ut Nho, the young woman in the reference: black square glasses, long black hair in a high ponytail with bangs, pink plaid long-sleeve shirt, black cargo pants, rubber boots, work gloves, conical hat on her back stands beside her. Chu Nam says in a warm, slightly husky middle-aged male voice with a Southern Vietnamese accent: \"Trái tới độ hết rồi. Để vài bữa là rụng, là nứt, bán cho ai?\" Sound: heavy thud of a falling durian, leaves rustling. All speech is in Vietnamese only. No music, no subtitles, no on-screen text."
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard, very large ripe durians hanging low, one already fallen on the red soil. A ripe durian drops and thuds onto the ground next to Chu Nam, the man in the reference: around 55, short messy grey-black hair, tanned weathered face, faded light grey striped long-sleeve work shirt, conical hat on his back, who picks it up and looks up anxiously while Ut Nho, the young woman in the reference: black square glasses, long black hair in a high ponytail with bangs, pink plaid long-sleeve shirt, black cargo pants, rubber boots, work gloves, conical hat on her back stands beside her. Chu Nam says in a warm, slightly husky middle-aged male voice with a Southern Vietnamese accent: \"Trái tới độ hết rồi. Để vài bữa là rụng, là nứt, bán cho ai?\" Sound: heavy thud of a falling durian, leaves rustling. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.",
+      "dung": [
+        1.65,
+        8.0
+      ]
     },
     {
       "so": "S09",
@@ -204,15 +233,19 @@
       "thoai": [
         {
           "nv": "Ut Nho",
-          "cau": "Con đăng lên mạng rồi ba. Ai cũng chỉ trả sáu mươi lăm nghìn."
+          "cau": "Con đăng lên mạng rồi ba. Ai cũng chỉ trả bốn chục nghìn."
         }
       ],
       "cat": [
         "dac_ta",
         "can"
       ],
-      "chu_man_hinh": "4 TẤN × 65.000Đ = 260TR",
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: the porch of a wooden farmhouse beside a durian orchard, a low red plastic stool. Ut Nho, the young woman in the reference: black square glasses, long black hair in a high ponytail with bangs, pink plaid long-sleeve shirt, black cargo pants, rubber boots, work gloves, conical hat on her back, sits scrolling her phone, then looks up and shakes her head sadly at Chu Nam, the man in the reference: around 55, short messy grey-black hair, tanned weathered face, faded light grey striped long-sleeve work shirt, conical hat on his back. Phone screen not visible. Ut Nho says in a bright young female voice with a Southern Vietnamese accent: \"Con đăng lên mạng rồi ba. Ai cũng chỉ trả sáu mươi lăm nghìn.\" Sound: phone notification sounds, cicadas. All speech is in Vietnamese only. No music, no subtitles, no on-screen text."
+      "chu_man_hinh": "4 TẤN × 40.000Đ = 160TR",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: the porch of a wooden farmhouse beside a durian orchard, a low red plastic stool. Ut Nho, the young woman in the reference: black square glasses, long black hair in a high ponytail with bangs, pink plaid long-sleeve shirt, black cargo pants, rubber boots, work gloves, conical hat on her back, sits scrolling her phone, then looks up and shakes her head sadly at Chu Nam, the man in the reference: around 55, short messy grey-black hair, tanned weathered face, faded light grey striped long-sleeve work shirt, conical hat on his back. Phone screen not visible. Ut Nho says in a bright young female voice with a Southern Vietnamese accent: \"Con đăng lên mạng rồi ba. Ai cũng chỉ trả bốn chục nghìn.\" Sound: phone notification sounds, cicadas. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.",
+      "dung": [
+        1.94,
+        6.11
+      ]
     },
     {
       "so": "S10",
@@ -225,15 +258,19 @@
       "thoai": [
         {
           "nv": "Ut Nho",
-          "cau": "Bốn tấn được hai trăm sáu chục, cộng tiền cọc là hai trăm tám chục. Hụt một trăm triệu so với kèo."
+          "cau": "Bốn tấn được một trăm sáu chục, cộng tiền cọc là một trăm tám chục. Hụt tám chục triệu so với hợp đồng."
         }
       ],
       "cat": [
-        "can",
-        "can"
+        "toan",
+        "can@0.28"
       ],
-      "chu_man_hinh": "280TR vs KÈO 380TR",
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: the porch of a wooden farmhouse beside a durian orchard. Ut Nho, the young woman in the reference: black square glasses, long black hair in a high ponytail with bangs, pink plaid long-sleeve shirt, black cargo pants, rubber boots, work gloves, conical hat on her back, counts on her fingers while Chu Nam, the man in the reference: around 55, short messy grey-black hair, tanned weathered face, faded light grey striped long-sleeve work shirt, conical hat on his back sits down slowly on a low red plastic stool, disappointed. Ut Nho says in a bright young female voice with a Southern Vietnamese accent: \"Bốn tấn được hai trăm sáu chục, cộng tiền cọc là hai trăm tám chục. Hụt một trăm triệu so với kèo.\" Sound: cicadas. All speech is in Vietnamese only. No music, no subtitles, no on-screen text."
+      "chu_man_hinh": "180TR vs HỢP ĐỒNG 260TR",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: the porch of a wooden farmhouse beside a durian orchard. Ut Nho, the young woman in the reference: black square glasses, long black hair in a high ponytail with bangs, pink plaid long-sleeve shirt, black cargo pants, rubber boots, work gloves, conical hat on her back, counts on her fingers while Chu Nam, the man in the reference: around 55, short messy grey-black hair, tanned weathered face, faded light grey striped long-sleeve work shirt, conical hat on his back sits down slowly on a low red plastic stool, disappointed. Ut Nho says in a bright young female voice with a Southern Vietnamese accent: \"Bốn tấn được một trăm sáu chục, cộng tiền cọc là một trăm tám chục. Hụt tám chục triệu so với hợp đồng.\" Sound: cicadas. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.",
+      "dung": [
+        0.0,
+        6.54
+      ]
     },
     {
       "so": "S11",
@@ -251,9 +288,13 @@
       ],
       "cat": [
         "toan",
-        "can"
+        "can@0.3"
       ],
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: under durian trees in an orchard, two low red plastic stools and a small tea table. Chu Nam, the man in the reference: around 55, short messy grey-black hair, tanned weathered face, faded light grey striped long-sleeve work shirt, conical hat on his back, pours tea and pushes the cup toward Thang Lanh, a man around 35, slicked hair, thin mustache, tight black T-shirt, gold chain and gold watch, who sits down awkwardly, eyes lowered. Chu Nam says in a warm, slightly husky middle-aged male voice with a Southern Vietnamese accent: \"Ngồi đi con. Giá sập đâu phải lỗi riêng ai. Mình tính cách nào cho cả hai cùng đỡ.\" Sound: tea pouring, cup on wood, cicadas. All speech is in Vietnamese only. No music, no subtitles, no on-screen text."
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: under durian trees in an orchard, two low red plastic stools and a small tea table. Chu Nam, the man in the reference: around 55, short messy grey-black hair, tanned weathered face, faded light grey striped long-sleeve work shirt, conical hat on his back, pours tea and pushes the cup toward Thang Lanh, a man around 35, slicked hair, thin mustache, tight black T-shirt, gold chain and gold watch, who sits down awkwardly, eyes lowered. Chu Nam says in a warm, slightly husky middle-aged male voice with a Southern Vietnamese accent: \"Ngồi đi con. Giá sập đâu phải lỗi riêng ai. Mình tính cách nào cho cả hai cùng đỡ.\" Sound: tea pouring, cup on wood, cicadas. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.",
+      "dung": [
+        0.0,
+        7.4
+      ]
     },
     {
       "so": "S12",
@@ -266,15 +307,19 @@
       "thoai": [
         {
           "nv": "Chu Nam",
-          "cau": "Con vẫn lấy hàng, giá bảy mươi lăm nghìn, tiền cọc trừ vào tiền hàng. Được không?"
+          "cau": "Con vẫn lấy hàng, giá năm chục nghìn, tiền cọc trừ vào tiền hàng. Được không?"
         }
       ],
       "cat": [
         "can",
         "can"
       ],
-      "chu_man_hinh": "GIÁ MỚI 75.000Đ/KÝ",
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: under durian trees in an orchard, a small tea table. Chu Nam, the man in the reference: around 55, short messy grey-black hair, tanned weathered face, faded light grey striped long-sleeve work shirt, conical hat on his back, gestures calmly toward the loaded trees, proposing a deal; Thang Lanh, a man around 35, slicked hair, thin mustache, tight black T-shirt, gold chain and gold watch thinks, then slowly nods. Chu Nam says in a warm, slightly husky middle-aged male voice with a Southern Vietnamese accent: \"Con vẫn lấy hàng, giá bảy mươi lăm nghìn, tiền cọc trừ vào tiền hàng. Được không?\" Sound: cicadas, leaves rustling. All speech is in Vietnamese only. No music, no subtitles, no on-screen text."
+      "chu_man_hinh": "GIÁ MỚI 50.000Đ/KÝ",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: under durian trees in an orchard, a small tea table. Chu Nam, the man in the reference: around 55, short messy grey-black hair, tanned weathered face, faded light grey striped long-sleeve work shirt, conical hat on his back, gestures calmly toward the loaded trees, proposing a deal; Thang Lanh, a man around 35, slicked hair, thin mustache, tight black T-shirt, gold chain and gold watch thinks, then slowly nods. Chu Nam says in a warm, slightly husky middle-aged male voice with a Southern Vietnamese accent: \"Con vẫn lấy hàng, giá năm chục nghìn, tiền cọc trừ vào tiền hàng. Được không?\" Sound: cicadas, leaves rustling. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.",
+      "dung": [
+        0.0,
+        6.4
+      ]
     },
     {
       "so": "S13",
@@ -291,11 +336,15 @@
         }
       ],
       "cat": [
-        "can",
-        "dac_ta"
+        "toan",
+        "can@0.3"
       ],
       "chu_man_hinh": "CHÚ NĂM +20TR · GIỮ CHỮ TÍN",
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard, workers starting to harvest in the background. Thang Lanh, a man around 35, slicked hair, thin mustache, tight black T-shirt, gold chain and gold watch, stands up and shakes hands firmly with Chu Nam, the man in the reference: around 55, short messy grey-black hair, tanned weathered face, faded light grey striped long-sleeve work shirt, conical hat on his back, both smiling with relief. Thang Lanh says in a fast, smooth-talking male voice with a Southern Vietnamese accent: \"Con vẫn lỗ hai chục, bằng tiền cọc, mà giữ được chữ tín với chú. Con chịu!\" Sound: handshake, workers cutting stems, cicadas. All speech is in Vietnamese only. No music, no subtitles, no on-screen text."
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard, workers starting to harvest in the background. Thang Lanh, a man around 35, slicked hair, thin mustache, tight black T-shirt, gold chain and gold watch, stands up and shakes hands firmly with Chu Nam, the man in the reference: around 55, short messy grey-black hair, tanned weathered face, faded light grey striped long-sleeve work shirt, conical hat on his back, both smiling with relief. Thang Lanh says in a fast, smooth-talking male voice with a Southern Vietnamese accent: \"Con vẫn lỗ hai chục, bằng tiền cọc, mà giữ được chữ tín với chú. Con chịu!\" Sound: handshake, workers cutting stems, cicadas. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.",
+      "dung": [
+        0.0,
+        7.04
+      ]
     },
     {
       "so": "S14",
@@ -314,7 +363,11 @@
         "can",
         "toan"
       ],
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard, soft afternoon light filtering through leaves. Nguoi Ke, the young woman in the reference: white collared shirt, beige wide-leg trousers, black belt, hair in a low bun, stands beside a durian tree and talks thoughtfully to the camera. Nguoi Ke says in a warm, clear young female voice with a Southern Vietnamese accent: \"Lúc giá sập, người mua người bán đều khổ. Chia nhau cái khó thì còn gặp nhau mùa sau.\" Sound: leaves rustling, birdsong. All speech is in Vietnamese only. No music, no subtitles, no on-screen text."
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard, soft afternoon light filtering through leaves. Nguoi Ke, the young woman in the reference: white collared shirt, beige wide-leg trousers, black belt, hair in a low bun, stands beside a durian tree and talks thoughtfully to the camera. Nguoi Ke says in a warm, clear young female voice with a Southern Vietnamese accent: \"Lúc giá sập, người mua người bán đều khổ. Chia nhau cái khó thì còn gặp nhau mùa sau.\" Sound: leaves rustling, birdsong. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.",
+      "dung": [
+        0.21,
+        7.04
+      ]
     },
     {
       "so": "S15",
@@ -333,8 +386,12 @@
         "can",
         "toan"
       ],
-      "chu_man_hinh": "GIẤY CỌC: GHI ĐIỀU KHOẢN GIÁ",
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard, a low red plastic stool under a tree. Nguoi Ke, the young woman in the reference: white collared shirt, beige wide-leg trousers, black belt, hair in a low bun, sits on a low red plastic stool holding a sheet of paper and explains to the camera. Paper text not readable. Nguoi Ke says in a warm, clear young female voice with a Southern Vietnamese accent: \"Mẹo nhỏ: giấy cọc nên ghi rõ, giá lên xuống quá mười nghìn thì hai bên ngồi lại.\" Sound: leaves rustling, birdsong. All speech is in Vietnamese only. No music, no subtitles, no on-screen text."
+      "chu_man_hinh": "GIẤY CỌC: GHI RÕ GIÁ",
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard, a low red plastic stool under a tree. Nguoi Ke, the young woman in the reference: white collared shirt, beige wide-leg trousers, black belt, hair in a low bun, sits on a low red plastic stool holding a sheet of paper and explains to the camera. Paper text not readable. Nguoi Ke says in a warm, clear young female voice with a Southern Vietnamese accent: \"Mẹo nhỏ: giấy cọc nên ghi rõ, giá lên xuống quá mười nghìn thì hai bên ngồi lại.\" Sound: leaves rustling, birdsong. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.",
+      "dung": [
+        0.05,
+        7.1
+      ]
     },
     {
       "so": "S16",
@@ -353,7 +410,11 @@
         "toan",
         "can"
       ],
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard, ripe durians hanging on branches. Em Tuan, the young man in the reference: short spiky black hair, black polo shirt, dark cargo pants, crouches beside a freshly cut durian, taps it, then looks up and talks to the camera. Em Tuan says in a friendly young male voice with a Southern Vietnamese accent: \"Và đừng chốt kèo quá xa ngày cắt. Chốt càng gần, giá càng sát, càng ít rủi ro.\" Sound: soft knocking on the husk, leaves rustling. All speech is in Vietnamese only. No music, no subtitles, no on-screen text."
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard, ripe durians hanging on branches. Em Tuan, the young man in the reference: short spiky black hair, black polo shirt, dark cargo pants, crouches beside a freshly cut durian, taps it, then looks up and talks to the camera. Em Tuan says in a friendly young male voice with a Southern Vietnamese accent: \"Và đừng chốt kèo quá xa ngày cắt. Chốt càng gần, giá càng sát, càng ít rủi ro.\" Sound: soft knocking on the husk, leaves rustling. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.",
+      "dung": [
+        1.39,
+        7.7
+      ]
     },
     {
       "so": "S17",
@@ -365,14 +426,18 @@
       "thoai": [
         {
           "nv": "Nguoi Ke",
-          "cau": "Theo bà con, giá sập mà bỏ cọc là quyền người mua, hay phải giữ kèo tới cùng?"
+          "cau": "Theo bà con, giá sập mà bỏ cọc là quyền người mua, hay phải giữ hợp đồng tới cùng?"
         }
       ],
       "cat": [
         "can",
         "toan"
       ],
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard at dusk, warm low sunlight. Nguoi Ke, the young woman in the reference: white collared shirt, beige wide-leg trousers, black belt, hair in a low bun, tilts her head curiously and asks the camera. Nguoi Ke says in a warm, clear young female voice with a Southern Vietnamese accent: \"Theo bà con, giá sập mà bỏ cọc là quyền người mua, hay phải giữ kèo tới cùng?\" Sound: evening crickets, gentle breeze. All speech is in Vietnamese only. No music, no subtitles, no on-screen text."
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard at dusk, warm low sunlight. Nguoi Ke, the young woman in the reference: white collared shirt, beige wide-leg trousers, black belt, hair in a low bun, tilts her head curiously and asks the camera. Nguoi Ke says in a warm, clear young female voice with a Southern Vietnamese accent: \"Theo bà con, giá sập mà bỏ cọc là quyền người mua, hay phải giữ hợp đồng tới cùng?\" Sound: evening crickets, gentle breeze. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.",
+      "dung": [
+        0.57,
+        7.18
+      ]
     },
     {
       "so": "S18",
@@ -385,17 +450,45 @@
       "thoai": [
         {
           "nv": "Nguoi Ke",
-          "cau": "Có hàng cần bán, bà con cứ gọi Tuấn Thủy. Mình cùng trao đổi rõ ràng, thuận mua vừa bán, ai cũng vui."
+          "cau": "Có hàng cần bán, bà con cứ tham khảo Nông Sản Tuấn Thủy xem sao nha."
         }
       ],
       "cat": [
         "toan",
         "can"
       ],
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard, baskets of freshly harvested durians on the ground. Nguoi Ke, the young woman in the reference: white collared shirt, beige wide-leg trousers, black belt, hair in a low bun, stands beside the baskets and talks to the camera with a warm smile, while Em Tuan, the young man in the reference: short spiky black hair, black polo shirt, dark cargo pants lifts a durian into a basket behind her. Nguoi Ke says in a warm, clear young female voice with a Southern Vietnamese accent: \"Có hàng cần bán, bà con cứ gọi Tuấn Thủy. Mình cùng trao đổi rõ ràng, thuận mua vừa bán, ai cũng vui.\" Sound: durian placed into basket, birds, leaves. All speech is in Vietnamese only. No music, no subtitles, no on-screen text."
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard, baskets of freshly harvested durians on the ground. Nguoi Ke, the young woman in the reference: white collared shirt, beige wide-leg trousers, black belt, hair in a low bun, stands beside the baskets and talks to the camera with a warm smile, while Em Tuan, the young man in the reference: short spiky black hair, black polo shirt, dark cargo pants lifts a durian into a basket behind her. Nguoi Ke says in a warm, clear young female voice with a Southern Vietnamese accent: \"Có hàng cần bán, bà con cứ tham khảo Nông Sản Tuấn Thủy xem sao nha.\" Sound: durian placed into basket, birds, leaves. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.",
+      "dung": [
+        0.0,
+        4.62
+      ]
     },
     {
       "so": "S19",
+      "phan": "KET_1",
+      "boi_canh": "vuon",
+      "nhan_vat": [
+        "Nguoi Ke",
+        "Em Tuan"
+      ],
+      "thoai": [
+        {
+          "nv": "Nguoi Ke",
+          "cau": "Mình cùng trao đổi rõ ràng, thuận mua vừa bán, ai cũng vui."
+        }
+      ],
+      "cat": [
+        "can",
+        "toan"
+      ],
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard, baskets of freshly harvested durians on the ground. Nguoi Ke, the young woman in the reference: white collared shirt, beige wide-leg trousers, black belt, hair in a low bun, stands beside the baskets, gestures openly with both hands and talks to the camera with a friendly smile, while Em Tuan, the young man in the reference: short spiky black hair, black polo shirt, dark cargo pants stands next to her holding a durian and nods. Nguoi Ke says in a warm, clear young female voice with a Southern Vietnamese accent: \"Mình cùng trao đổi rõ ràng, thuận mua vừa bán, ai cũng vui.\" Sound: birds, leaves rustling. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.",
+      "dung": [
+        0.0,
+        5.1
+      ]
+    },
+    {
+      "so": "S20",
       "phan": "KET_2",
       "boi_canh": "vuon",
       "nhan_vat": [
@@ -411,7 +504,11 @@
         "can",
         "toan"
       ],
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard path at golden hour, long rows of durian trees. Nguoi Ke, the young woman in the reference: white collared shirt, beige wide-leg trousers, black belt, hair in a low bun, talks to the camera with a gentle smile and a small nod, then turns and walks slowly away down the path. Nguoi Ke says in a warm, clear young female voice with a Southern Vietnamese accent: \"Cảm ơn bà con đã tin tưởng và hẹn gặp lại trong những vườn sầu riêng.\" Sound: footsteps on dry leaves, birdsong fading. All speech is in Vietnamese only. No music, no subtitles, no on-screen text."
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard path at golden hour, long rows of durian trees. Nguoi Ke, the young woman in the reference: white collared shirt, beige wide-leg trousers, black belt, hair in a low bun, talks to the camera with a gentle smile and a small nod, then turns and walks slowly away down the path. Nguoi Ke says in a warm, clear young female voice with a Southern Vietnamese accent: \"Cảm ơn bà con đã tin tưởng và hẹn gặp lại trong những vườn sầu riêng.\" Sound: footsteps on dry leaves, birdsong fading. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.",
+      "dung": [
+        0.17,
+        7.5
+      ]
     }
   ]
 }
