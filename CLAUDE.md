@@ -45,7 +45,7 @@ hotline/Zalo **0392.547.547**.
 | `docs/08_QUY_TRINH_SAN_XUAT.md` | Quy trình Flow → giọng → hậu kỳ → duyệt |
 | `docs/09_NGUON_KIEN_THUC_CHUNG.md` | Repo = nguồn duy nhất; cách gộp thư mục máy chủ kênh |
 | `thuong_hieu/nhan_vat_moi.md` | Prompt tạo ảnh tham chiếu Flow cho 4 nhân vật mới |
-| `.claude/skills/nstt-san-xuat-video/` | Skill dự án (tự nạp) |
+| `.claude/skills/chuyen-sau-rieng/` | Skill dự án (tự nạp) — quy trình trọn gói từ 01/10/2026 (thay `nstt-san-xuat-video` đã gỡ). Bản cài: `chuyen-sau-rieng.skill` trên Drive `NSTT/skill` |
 | `docs/10_DE_XUAT_NHAN_VAT_THUONG_HIEU.md` | Đề xuất đổi tên / nhân vật (đã chốt 30/09) |
 | `kich_ban/<ma_video>/` | `canh.json`, `kich_ban.md`, `seo.md`, `trang_thai.md` |
 | `tools/kiem_tra_kich_ban.py` | Kiểm tra `canh.json`: độ dài ước tính, số viết bằng chữ, tên nhân vật, cấu trúc |
