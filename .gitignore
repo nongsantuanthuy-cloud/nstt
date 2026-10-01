@@ -4,3 +4,4 @@ phan_tich/
 __pycache__/
 bi_mat/
 *.env
+*.skill
