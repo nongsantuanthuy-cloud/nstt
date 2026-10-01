@@ -9,7 +9,7 @@
 - TikTok: Kèo 260 triệu, sáng ngày cắt nhận tin: anh bỏ cọc 😢
 
 ## Mô tả (dùng chung)
-Chốt 4 tấn giá 65 nghìn, cọc 20 triệu. Mười ngày sau giá sập còn 45 nghìn. Giữ kèo thì lỗ 80 triệu, bỏ cọc thì mất 20…
+Chốt 4 tấn giá 65 nghìn, cọc 20 triệu. Nửa tháng sau giá sập còn 45 nghìn. Giữ kèo thì lỗ 80 triệu, bỏ cọc thì mất 20…
 
 💡 Mẹo: giấy cọc nên ghi rõ nếu giá lên xuống quá 10 nghìn thì hai bên ngồi lại thương lượng; đừng chốt kèo quá xa ngày cắt.
 

@@ -1,6 +1,7 @@
 # Trạng thái — NSTT-20261001-B
 
-**CHỜ DUYỆT VIDEO** (01/10/2026) — `ban_dung/NSTT-20261001-B.mp4`, 124,6 s, −14,4 LUFS, Whisper 20/20 đạt.
+**ĐÃ DUYỆT — CHỜ ĐĂNG** (chủ kênh "DUYỆT NSTT-20261001-B" 01/10/2026) — `ban_dung/NSTT-20261001-B.mp4`, 124,6 s, −14,4 LUFS, Whisper 20/20 đạt.
+Bản duyệt: không chữ lớn, phụ đề chân y=1245, logo (36, 290). Chủ kênh tự đăng theo `seo.md`.
 S11 đã tạo lại (chủ kênh tạo tay, khớp 100%). S16 KHÔNG cần tạo lại: Veo nói đủ câu, Whisper VAD cắt mất nửa đầu
 → `moc_tu_whisper.py` nay tự nghe lại không VAD khi điểm thấp (S16 khớp 78%, sai do model small nghe nhầm chữ).
 
@@ -12,5 +13,5 @@ S11 đã tạo lại (chủ kênh tạo tay, khớp 100%). S16 KHÔNG cần tạ
 - [x] Dựng `ban_dung/NSTT-20261001-B.mp4` — 117,8 s, 1080×1920, −14,4 LUFS, phụ đề karaoke theo mốc Whisper
 - [x] Tạo lại S11 (Flow chặn tự động → chủ kênh tạo tay; clip 81842a70), S16 giữ nguyên
 - [x] Chạy lại Whisper + dựng lại (124,6 s)
-- [ ] Chủ kênh DUYỆT video
+- [x] Chủ kênh DUYỆT video (01/10/2026)
 - [ ] Đăng (chỉ sau chữ DUYỆT)
