@@ -12,7 +12,7 @@
 Mỗi cảnh trong canh.json có thể thêm:
   "dung": [a, b]          chỉ lấy đoạn a→b giây của clip (mặc định: tự dò đoạn có tiếng nói ± đệm)
   "tam_x": 0.5            tâm ngang khi cắt dọc (0 = mép trái, 1 = mép phải) — chỉnh khi mặt nhân vật lệch
-  "cat": ["toan","can","dac_ta"]  chia đoạn dùng thành các góc: toàn (khung 16:9 + nền mờ),
+  "cat": ["toan","can@0.33","dac_ta"]  chia đoạn dùng thành các góc (thêm @x để đặt tâm ngang riêng từng góc): toàn (khung 16:9 + nền mờ),
                           cận (cắt dọc 9:16), đặc tả (cắt dọc phóng 1,6 lần)
 Đầu ra: ban_dung/<ma>.mp4 — 1080×1920, 30 fps, H.264 yuv420p, AAC, −14 LUFS; phụ đề karaoke 2–3 chữ IN HOA,
 chữ đang nói tô vàng #F2CD41; chữ lớn `chu_man_hinh` nền xanh #024815; logo góc trên (nếu có).
@@ -55,11 +55,10 @@ def do_dai(p: Path) -> float:
     return int(m[1]) * 3600 + int(m[2]) * 60 + float(m[3]) if m else 0.0
 
 
-def khoang_co_tieng(p: Path, dai: float):
-    """Trả (đầu, cuối) của đoạn có tiếng nói trong clip, dò bằng silencedetect."""
+def doan_co_tieng(p: Path, dai: float):
+    """Các đoạn có tiếng [(đầu, cuối)], dò bằng silencedetect; bỏ tiếng động ngắn ở đầu (bước chân, lá…)."""
     err = chay(["-i", str(p), "-af", "silencedetect=n=-32dB:d=0.25", "-f", "null", "-"], check=False)
-    lang = []
-    bd = None
+    lang, bd = [], None
     for dong in err.splitlines():
         if "silence_start" in dong:
             bd = float(dong.split("silence_start:")[1])
@@ -68,14 +67,21 @@ def khoang_co_tieng(p: Path, dai: float):
             bd = None
     if bd is not None:
         lang.append((bd, dai))
-    dau, cuoi = 0.0, dai
-    if lang and lang[0][0] <= 0.05:
-        dau = lang[0][1]
-    if lang and lang[-1][1] >= dai - 0.05:
-        cuoi = lang[-1][0]
-    if cuoi - dau < 0.5:
-        return None
-    return dau, cuoi
+    doan, t = [], 0.0
+    for a, b in lang:
+        if a - t > 0.05:
+            doan.append((t, a))
+        t = b
+    if dai - t > 0.05:
+        doan.append((t, dai))
+    while doan and doan[0][1] - doan[0][0] < 0.35:   # tiếng lẻ ngắn trước câu nói
+        doan.pop(0)
+    return doan
+
+
+def khoang_co_tieng(p: Path, dai: float):
+    d = doan_co_tieng(p, dai)
+    return (d[0][0], d[-1][1]) if d else None
 
 
 def am_tiet(cau: str):
@@ -210,8 +216,14 @@ def main():
             moc = json.loads(f_moc.read_text(encoding="utf-8"))
             nguon = "whisper"
         elif thoai:
-            s0, s1 = tieng if tieng else (u0 + 0.2, u1 - 0.3)
-            moc = uoc_tinh_moc(thoai, s0, s1)
+            doan_t = [d for d in doan_co_tieng(clip, dai) if d[1] > u0 and d[0] < u1]
+            if len(thoai) == 2 and len(doan_t) >= 2:
+                k = max(range(1, len(doan_t)), key=lambda i: doan_t[i][0] - doan_t[i - 1][1])
+                moc = (uoc_tinh_moc(thoai[:1], doan_t[0][0], doan_t[k - 1][1])
+                       + uoc_tinh_moc(thoai[1:], doan_t[k][0], doan_t[-1][1]))
+            else:
+                s0, s1 = (doan_t[0][0], doan_t[-1][1]) if doan_t else (u0 + 0.2, u1 - 0.3)
+                moc = uoc_tinh_moc(thoai, s0, s1)
             nguon = "uoc_tinh" if tieng else "uoc_tinh_khong_do_duoc_tieng"
         else:
             moc, nguon = [], "-"
@@ -226,8 +238,10 @@ def main():
         that = 0.0   # độ dài thật sau khi cắt (khung hình làm tròn) — dùng để phụ đề cảnh sau không bị trôi
         for i, kieu in enumerate(cat):
             out = tam / f"{c['so']}_{i}.mp4"
+            kieu, _, tx = kieu.partition("@")   # "can@0.33" = cận, tâm ngang 33% khung
+            tx = float(tx) if tx else c.get("tam_x", 0.5)
             chay(["-ss", f"{u0 + i * buoc:.3f}", "-t", f"{buoc:.3f}", "-i", str(clip),
-                  "-filter_complex", f"[0:v]{loc_khung(kieu, c.get('tam_x', 0.5), iw, ih)},setsar=1,fps={FPS}[v]",
+                  "-filter_complex", f"[0:v]{loc_khung(kieu, tx, iw, ih)},setsar=1,fps={FPS}[v]",
                   "-map", "[v]", "-map", "0:a?", *chat, "-shortest", str(out)])
             doan.append(out)
             that += do_dai(out)

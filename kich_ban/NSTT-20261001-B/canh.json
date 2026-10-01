@@ -34,11 +34,16 @@
         }
       ],
       "cat": [
-        "can",
-        "can"
+        "toan",
+        "can@0.33",
+        "can@0.55"
       ],
       "chu_man_hinh": "BỎ CỌC 20 TRIỆU ?",
-      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard at early morning, mist between rows of durian trees heavy with ripe fruit. Ut Nho, the young woman in the reference: black square glasses, long black hair in a high ponytail with bangs, pink plaid long-sleeve shirt, black cargo pants, rubber boots, work gloves, conical hat on her back, runs up holding her phone out to Chu Nam, the man in the reference: around 55, short messy grey-black hair, tanned weathered face, faded light grey striped long-sleeve work shirt, conical hat on his back, whose face drops in shock. Phone screen not visible. Ut Nho says in a bright young female voice with a Southern Vietnamese accent: \"Ba ơi, chú Thắng nhắn: giá sập rồi, chú bỏ cọc, không lấy hàng nữa!\" Then Chu Nam says in a warm, slightly husky middle-aged male voice with a Southern Vietnamese accent: \"Hả?\" Sound: hurried footsteps, morning birds. All speech is in Vietnamese only. No music, no subtitles, no on-screen text."
+      "prompt_flow": "Photorealistic cinematic footage, warm earthy brown-golden color grade, 35mm film look, shallow depth of field, realistic human motion, natural lip-sync. Setting: a durian orchard at early morning, mist between rows of durian trees heavy with ripe fruit. Ut Nho, the young woman in the reference: black square glasses, long black hair in a high ponytail with bangs, pink plaid long-sleeve shirt, black cargo pants, rubber boots, work gloves, conical hat on her back, runs up holding her phone out to Chu Nam, the man in the reference: around 55, short messy grey-black hair, tanned weathered face, faded light grey striped long-sleeve work shirt, conical hat on his back, whose face drops in shock. Phone screen not visible. Ut Nho says in a bright young female voice with a Southern Vietnamese accent: \"Ba ơi, chú Thắng nhắn: giá sập rồi, chú bỏ cọc, không lấy hàng nữa!\" Then Chu Nam says in a warm, slightly husky middle-aged male voice with a Southern Vietnamese accent: \"Hả?\" Sound: hurried footsteps, morning birds. All speech is in Vietnamese only. No music, no subtitles, no on-screen text.",
+      "dung": [
+        2.7,
+        8.7
+      ]
     },
     {
       "so": "S02",

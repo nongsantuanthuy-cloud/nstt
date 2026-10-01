@@ -103,7 +103,7 @@ def kiem_tra(data: dict):
             if len(c.get("thoai", [])) > 2:
                 canh_bao.append(f"{so}: hơn 2 lượt thoại trong 1 clip — Veo dễ lẫn giọng")
             for x in c.get("cat", []):
-                if x not in KHUNG:
+                if x.partition("@")[0] not in KHUNG:
                     loi_nang.append(f"{so}: khung cắt '{x}' không hợp lệ ({', '.join(KHUNG)})")
             if "Vietnamese" not in prompt:
                 loi_nang.append(f"{so}: prompt phải ghi rõ nói tiếng Việt (Vietnamese)")
